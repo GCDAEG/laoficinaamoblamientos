@@ -5,6 +5,7 @@ The images in `images/la-oficina-demo/` are temporary photos copied from the exi
 | File | Source recorded in the scaffold | Treatment |
 |---|---|---|
 | `Elegant LO Amoblamientos Monogram.png` | Supplied by the user | Original logo asset; retained without modification |
+| `preview.jpeg` | Supplied by the user | Shared-link preview image for Open Graph and Twitter cards |
 | `images/la-oficina-demo/logo-la-oficina.png` | Cropped from the user-supplied logo | Transparent margins removed for the header and footer; proportions preserved |
 | `images/la-oficina-catalogue/*.jpg` | Embedded `image_data` in the user-supplied `whatsapp-catalogue-2026-10-29.json` | 41 named entries extracted without upscaling; source thumbnails are at most 240 px |
 | `hero-showroom-illustrative.jpg` | Existing local demo asset; exact origin not documented | Hero illustration; verify rights or replace with authorized La Oficina photography before publication |

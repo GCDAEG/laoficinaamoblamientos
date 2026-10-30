@@ -6,6 +6,13 @@ export const site = {
   location: "Santa Fe, Argentina",
 };
 
+export const socialPreviewImage = {
+  url: "/preview.jpeg",
+  width: 1786,
+  height: 1116,
+  alt: `Vista previa de ${site.name}`,
+};
+
 export const navigation = [
   { href: "/#inicio", label: "Inicio" },
   { href: "/catalogo", label: "Catálogo" },

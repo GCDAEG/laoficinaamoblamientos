@@ -140,6 +140,7 @@ Las imágenes se extraen de `image_data` a `public/images/la-oficina-catalogue/`
 | Textos de hero y sección institucional | Propuestos | Ajustar tras revisión visual |
 | Imágenes del catálogo de WhatsApp | Aportadas en JSON | Usar las 41 entradas con nombre; conservar referencia al índice de origen |
 | Fotografías temporales | Autorizadas para la demo | Rotular y reemplazar después |
+| Vista previa al compartir | `public/preview.jpeg` aportada por el usuario | Usar en los metadatos sociales de la home y el catálogo |
 | Precio, descripción y disponibilidad de las fichas | Pendiente | Confirmar antes de publicar datos comerciales |
 | WhatsApp | Enlace aportado por el usuario | Usar `https://wa.me/5493425460071` para consultas |
 | Instagram | Perfil aportado por el usuario | Enlazar `https://www.instagram.com/laoficinaamoblamientossc/` |

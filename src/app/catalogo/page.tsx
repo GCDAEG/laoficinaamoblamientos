@@ -3,12 +3,19 @@ import { Suspense } from "react";
 import { CatalogueExplorer } from "@/components/catalogue/CatalogueExplorer";
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
-import { site } from "@/config/site";
+import { site, socialPreviewImage } from "@/config/site";
 import { productCategories, products } from "@/data/products";
 
 export const metadata: Metadata = {
   title: `Catálogo | ${site.name}`,
   description: `Explorá ${products.length} referencias de mobiliario incluidas en el catálogo de ${site.name}.`,
+  openGraph: {
+    title: `Catálogo | ${site.name}`,
+    description: `Explorá ${products.length} referencias de mobiliario incluidas en el catálogo de ${site.name}.`,
+    type: "website",
+    locale: "es_AR",
+    images: [socialPreviewImage],
+  },
 };
 
 export default async function CataloguePage({ searchParams }: { searchParams: Promise<{ categoria?: string | string[] }> }) {
