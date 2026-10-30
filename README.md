@@ -1,74 +1,22 @@
-# Base institucional
+# Demo conceptual de La Oficina Amoblamientos
 
-Base reutilizable de TUWEBHOY con Next.js App Router, React, TypeScript y
-Tailwind CSS. Incluye una demo ilustrativa, sin empresa, productos ni contactos
-reales. Su estética es reemplazable: no constituye una dirección visual obligatoria.
+Demo de dos páginas para revisión local. Propuesta visual no oficial, sin aprobación ni encargo confirmado. Usa Next.js App Router, React, TypeScript y Tailwind CSS.
 
 ## Instalar y ejecutar
 
-Usá Node.js 20.9 o superior y npm con el `package-lock.json` existente.
+Requiere Node.js 20.9 o superior y npm. Instalá con `npm ci` y ejecutá `npm run dev`; abrí http://localhost:3000. Para revisar el build local usá `npm run build` y `npm start`.
 
-```sh
-npm ci
-npm run dev
-```
+## Contenido y pendientes
 
-Abrí http://localhost:3000. Para ejecutar la compilación de producción local:
+- `/` presenta el banner ilustrativo, categorías y una selección de 7 productos. «Ver catálogo completo» lleva a `/catalogo`.
+- `/catalogo` muestra las 41 entradas con nombre del archivo `whatsapp-catalogue-2026-10-29.json`, agrupadas en cinco categorías. Las 49 imágenes sin nombre no se convierten en fichas.
+- Los datos derivados están en `src/data/catalogue-products.json`; `src/data/products.ts` define categorías y selección de portada. Las imágenes se encuentran en `public/images/la-oficina-catalogue/` y su procedencia está documentada en `public/README.md`.
+- «Consultar» desde `/catalogo` vuelve al formulario de la portada con el producto seleccionado.
+- La foto del banner es ilustrativa. Las imágenes de producto provienen del export aportado; precios, descripciones y disponibilidad no están informados.
+- El número oficial de WhatsApp está vacío en `src/config/site.ts`; la acción permanece deshabilitada hasta confirmarlo.
+- Los iconos de Instagram y Facebook del header y footer permanecen deshabilitados hasta confirmar las URL oficiales. El botón flotante de WhatsApp abre una vista previa de chat para escribir un borrador local; no envía mensajes hasta confirmar el número oficial.
+- El logo incorporado fue aportado por el usuario; los derechos de uso no están documentados.
+- La cifra de 50 años y los textos propuestos requieren revisión antes de publicar. La metadata mantiene `noindex, nofollow`.
 
-```sh
-npm run build
-npm start
-```
-
-La demo no requiere variables de entorno ni servicios externos.
-Si PowerShell bloquea `npm.ps1`, usá `npm.cmd` y `npx.cmd` en los comandos.
-
-## Iniciar un nuevo sitio
-
-1. Copiá la base a una carpeta del cliente, sin `node_modules`, `.next` ni
-   `tsconfig.tsbuildinfo`. Inicializá su propio repositorio si corresponde.
-2. Leé `AGENTS.md`. Completá `BRIEF.md` con negocio, alcance, contenido confirmado,
-   contactos, dominio y destino de publicación. Los pendientes no son contenido.
-3. Completá `DESIGN.md` con identidad, referencias, recursos y decisiones visuales.
-   Diferenciá propuestas de decisiones confirmadas; adaptá o reemplazá esta demo.
-4. Editá contenido, navegación, componentes y estilos según el encargo. Incorporá
-   únicamente contactos reales y recursos autorizados. No agregues la marca
-   TUWEBHOY al sitio del cliente salvo indicación expresa.
-5. Ajustá metadata y favicon. La base usa `noindex, nofollow`: cambiá esa política
-   solo si corresponde a la etapa. Configurá canonical, sitemap, datos sociales y
-   datos estructurados únicamente con dominio y datos válidos. No hay analytics.
-6. Verificá antes de publicar. La preparación de la base no autoriza despliegues.
-
-## Dónde editar
-
-- `src/config/site.ts`: nombre y descripción compartidos, navegación. Centralizá
-  aquí los datos comerciales repetidos cuando estén confirmados; no hay contactos
-  de ejemplo ni enlaces externos activos.
-- `src/app/page.tsx`: composición explícita de la página.
-- `src/components/sections/`: textos y presentación de las secciones de muestra.
-- `src/components/layout/`: encabezado, menú móvil y pie.
-- `src/components/ui/`: nombre compartido y enlaces con apariencia de botón.
-- `src/app/globals.css`: tokens de color, tipografía, ancho, espaciado y controles;
-  estilos responsive y estados de foco. Usa fuentes del sistema, sin descargas.
-- `src/app/layout.tsx`: idioma y metadata. `src/app/icon.svg`: favicon genérico;
-  sus colores SVG se actualizan por separado si cambia la identidad.
-- `public/`: recursos del cliente y notas de procedencia en `public/README.md`.
-
-El scroll es nativo y respeta movimiento reducido. El menú usa `details` para
-funcionar también sin JavaScript; Escape y selección de enlaces lo cierran con JS.
-Solo el encabezado necesita un Client Component para esas interacciones.
-
-## Comprobaciones
-
-```sh
-npm run lint
-npx tsc --noEmit
-npm run build
-```
-
-TypeScript está instalado localmente; no hay un script `test` ni una suite de
-pruebas configurada. Revisá además en navegador escritorio y móvil: menú,
-teclado, foco, anclas, contraste, textos largos y ausencia de desbordamientos.
-Comprobá que contenido, enlaces, recursos y metadata correspondan al cliente
-actual. Un build correcto no sustituye la revisión visual.
-# BASE-INST
+No requiere variables de entorno ni backend. No se desplegó.
+# laoficinaamoblamientos
