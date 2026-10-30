@@ -36,7 +36,7 @@ export default function Home() {
           <div><p className="eyebrow">Una selección</p><h2 id="products-title">Piezas y líneas</h2></div>
           <p>Un primer recorrido por el mobiliario del catálogo.</p>
         </div>
-        <p className="catalog-note">Las imágenes y denominaciones provienen del catálogo compartido. Precios y disponibilidad pendientes de confirmación.{!hasWhatsAppContact() && " Las consultas por producto se habilitarán al confirmar el WhatsApp oficial."}</p>
+        <p className="catalog-note"><strong>Precios ilustrativos para esta demostración. No representan valores oficiales de La Oficina Amoblamientos.</strong> Las imágenes y denominaciones provienen del catálogo compartido. Consultá por disponibilidad.{!hasWhatsAppContact() && " Las consultas por producto se habilitarán al confirmar el WhatsApp oficial."}</p>
         <div className="catalog-mosaic">
           {featuredProducts.map((product) => <ProductCard product={product} headingLevel={3} key={product.id} />)}
         </div>

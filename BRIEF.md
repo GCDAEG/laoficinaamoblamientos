@@ -37,7 +37,7 @@ Demostrar cómo La Oficina podría transformar su presencia digital en un **cat�
 - **Imágenes:** se permiten fotografías ilustrativas temporales de muebles, **rotuladas como tales**. Las piezas originales del negocio tienen prioridad cuando estén disponibles localmente y resulten adecuadas.
 - **Complejidad:** construir la menor solución que permita evaluar una web visualmente terminada. Nada de desarrollar sistemas antes de validación comercial.
 
-**Fuera de alcance:** ecommerce, precios, carrito, checkout, pagos, stock, filtros complejos, fichas individuales, CMS, panel, autenticación, base de datos, backend, carga de archivos, cotizador avanzado, analítica y automatizaciones no solicitadas.
+**Fuera de alcance:** ecommerce, precios oficiales o vigentes, carrito, checkout, pagos, stock, filtros complejos, fichas individuales, CMS, panel, autenticación, base de datos, backend, carga de archivos, cotizador avanzado, analítica y automatizaciones no solicitadas.
 
 ## 4. Estructura y contenido
 
@@ -68,7 +68,7 @@ Demostrar cómo La Oficina podría transformar su presencia digital en un **cat�
 - El archivo provisto contiene 91 imágenes, de las cuales 41 corresponden a entradas con nombre de producto o línea. La primera entrada identifica la marca y 49 imágenes carecen de nombre; esas 50 entradas no se publican como fichas independientes.
 - La portada muestra 7 entradas representativas y un enlace «Ver catálogo completo». La ruta `/catalogo` muestra inicialmente las 41 entradas con nombre, permite filtrarlas por categoría con una URL compartible y conserva sus denominaciones y fotos. «Consultar» abre WhatsApp con el nombre de la pieza.
 - Las imágenes incrustadas son miniaturas de hasta 240 px. Evitar tarjetas de imagen muy grandes o recortes que oculten productos.
-- El archivo no informa precio, descripción, disponibilidad ni enlaces de producto. No completar esos campos por inferencia.
+- El archivo no informa precios, descripciones, disponibilidad ni enlaces de producto. Esta demo incorpora precios ficticios por ficha, siempre rotulados como ilustrativos y separados de las consultas por WhatsApp; no completar los demás campos por inferencia.
 
 ### 04 — Trayectoria y asesoramiento (`#nosotros`)
 - Sección editorial independiente entre la selección de productos y el formulario, con fotografía de ambiente ilustrativa y CTA «Hablemos de tu proyecto» → `#contacto`.
@@ -94,7 +94,8 @@ Demostrar cómo La Oficina podría transformar su presencia digital en un **cat�
 |---|---|---|
 | 41 entradas con nombre del export de WhatsApp | Archivo aportado | Mostrar nombre e imagen incrustada, agrupados por tipo de mobiliario |
 | 49 imágenes sin nombre | Archivo aportado | No convertir en fichas ni asignarles un nombre supuesto |
-| Precio, descripción y disponibilidad | No informados en el export | Mantener pendientes; no inventar |
+| Precios | No informados en el export | Mostrar importes ficticios de ejemplo, distintos por producto y claramente identificados como ilustrativos; no incluirlos en mensajes de WhatsApp |
+| Descripción y disponibilidad | No informadas en el export | Mantener pendientes; no inventar |
 
 Las imágenes se extraen de `image_data` a `public/images/la-oficina-catalogue/`. Los metadatos derivados se guardan en `src/data/catalogue-products.json` y se exponen desde `src/data/products.ts`; `sourceIndex` permite rastrear cada ficha hasta el export. Centralizar los datos de marca/contacto en un único archivo de configuración.
 
@@ -125,7 +126,7 @@ Las imágenes se extraen de `image_data` a `public/images/la-oficina-catalogue/`
 4. «Consultar» construye el mensaje con el producto exacto y no desplaza al formulario.
 5. Flujo compatible con mouse, touch y teclado, sin `CustomEvent`/`sessionStorage` como puente entre componentes.
 6. WhatsApp solo se habilita con número oficial verificado; sin mensajes de envío ficticios.
-7. Sin precios, stock, materiales o condiciones comerciales inventados.
+7. Los precios de ejemplo se identifican como ilustrativos; no se inventan stock, materiales ni condiciones comerciales.
 8. Responsive revisado en 390×844, 768×1024, 1366×768 y 1440×900, sin overflow horizontal.
 9. Accesibilidad: `alt`, etiquetas, foco, contraste, estados, movimiento reducido.
 10. Ejecutar los scripts existentes de lint, tipos y build e informar resultados reales.
@@ -141,7 +142,7 @@ Las imágenes se extraen de `image_data` a `public/images/la-oficina-catalogue/`
 | Imágenes del catálogo de WhatsApp | Aportadas en JSON | Usar las 41 entradas con nombre; conservar referencia al índice de origen |
 | Fotografías temporales | Autorizadas para la demo | Rotular y reemplazar después |
 | Vista previa al compartir | `public/preview.jpeg` aportada por el usuario | Usar en los metadatos sociales de la home y el catálogo |
-| Precio, descripción y disponibilidad de las fichas | Pendiente | Confirmar antes de publicar datos comerciales |
+| Precios, descripción y disponibilidad oficiales | Pendiente | Sustituir los precios ilustrativos y confirmar los demás datos antes de publicar información comercial |
 | WhatsApp | Enlace aportado por el usuario | Usar `https://wa.me/5493425460071` para consultas |
 | Instagram | Perfil aportado por el usuario | Enlazar `https://www.instagram.com/laoficinaamoblamientossc/` |
 | Dirección oficial | Pendiente | Verificar antes de publicar |

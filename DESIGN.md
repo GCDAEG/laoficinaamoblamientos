@@ -120,9 +120,9 @@ Se pueden combinar colecciones y selección si crea una mejor experiencia. Evita
 
 - Mostrar una selección de 7 entradas en la portada con un enlace editorial «Ver catálogo completo». La ruta `/catalogo` presenta inicialmente las 41 entradas con nombre del export de WhatsApp y filtra por categoría mediante una barra compacta sticky, sincronizada con la URL. La primera entrada es la marca y las 49 imágenes sin nombre no se convierten en fichas.
 - Las miniaturas fuente llegan hasta 240 px; usar una grilla contenida y mostrar el producto entero con `object-fit: contain`.
-- Cada ficha presenta el nombre del archivo y una acción **«Consultar»** claramente visible. La acción abre WhatsApp con el nombre correcto y el número de contacto aportado por el usuario.
+- Cada ficha presenta categoría, nombre, precio ilustrativo y una acción **«Consultar»** claramente visible. El precio tiene jerarquía propia y el carácter ficticio se aclara junto al catálogo. La acción abre WhatsApp con el nombre correcto, sin incluir el importe.
 - La trayectoria se presenta después de la selección de la portada, en una sección independiente; la página completa se centra en las fichas y sus categorías.
-- No inferir precios, especificaciones o disponibilidad. Evitar carrito, favoritos y filtros complejos.
+- Los importes de la demo son ejemplos ficticios, no valores oficiales; no inferir especificaciones o disponibilidad. Evitar carrito, favoritos y filtros complejos.
 
 ### 5.4 Trayectoria e identidad
 
@@ -189,7 +189,7 @@ No comenzar desde cero ni añadir librerías para compensar falta de dirección 
 3. El primer scroll revela producto/colección real, no otro gran bloque de tipografía y aire vacío.
 4. Hay variedad modular sin convertirse en collage arbitrario; todas las composiciones tienen una función.
 5. «Consultar» es fácil de encontrar y accionar en desktop, touch y teclado.
-6. Fotos ilustrativas identificadas, fotos reales atribuidas correctamente, sin precios ni stock ficticios.
+6. Fotos ilustrativas identificadas, fotos reales atribuidas correctamente, precios ficticios claramente rotulados y sin stock inventado.
 7. Logo y monocromía preservados.
 8. La consulta por producto y el formulario de proyectos funcionan como recorridos separados.
 9. Pruebas visuales en móvil, tablet, 1366 y 1440; informar cuáles efectivamente se realizaron.

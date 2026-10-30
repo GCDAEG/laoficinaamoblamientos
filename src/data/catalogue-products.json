@@ -5,7 +5,8 @@
     "name": "Armario Bajo Abierto de 0,74",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/002.jpg",
-    "alt": "Imagen de catálogo: Armario Bajo Abierto de 0,74"
+    "alt": "Imagen de catálogo: Armario Bajo Abierto de 0,74",
+    "price": 125000
   },
   {
     "id": "catalogo-003",
@@ -13,7 +14,8 @@
     "name": "Armario Bajo de 0,74",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/003.jpg",
-    "alt": "Imagen de catálogo: Armario Bajo de 0,74"
+    "alt": "Imagen de catálogo: Armario Bajo de 0,74",
+    "price": 156000
   },
   {
     "id": "catalogo-004",
@@ -21,7 +23,8 @@
     "name": "Armario Abierto de 1,35",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/004.jpg",
-    "alt": "Imagen de catálogo: Armario Abierto de 1,35"
+    "alt": "Imagen de catálogo: Armario Abierto de 1,35",
+    "price": 182000
   },
   {
     "id": "catalogo-005",
@@ -29,7 +32,8 @@
     "name": "Escritorio Simple Caño Cerrado",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/005.jpg",
-    "alt": "Imagen de catálogo: Escritorio Simple Caño Cerrado"
+    "alt": "Imagen de catálogo: Escritorio Simple Caño Cerrado",
+    "price": 269000
   },
   {
     "id": "catalogo-006",
@@ -37,7 +41,8 @@
     "name": "Puesto de trabajo en forma de \"L\" simple",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/006.jpg",
-    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\" simple"
+    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\" simple",
+    "price": 355000
   },
   {
     "id": "catalogo-007",
@@ -45,7 +50,8 @@
     "name": "Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/007.jpg",
-    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón"
+    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón",
+    "price": 425000
   },
   {
     "id": "catalogo-008",
@@ -53,7 +59,8 @@
     "name": "Puesto de trabajo con extensión y cajonera de un cajón",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/008.jpg",
-    "alt": "Imagen de catálogo: Puesto de trabajo con extensión y cajonera de un cajón"
+    "alt": "Imagen de catálogo: Puesto de trabajo con extensión y cajonera de un cajón",
+    "price": 392000
   },
   {
     "id": "catalogo-009",
@@ -61,7 +68,8 @@
     "name": "Mesa Redonda",
     "category": "Mesas",
     "image": "/images/la-oficina-catalogue/009.jpg",
-    "alt": "Imagen de catálogo: Mesa Redonda"
+    "alt": "Imagen de catálogo: Mesa Redonda",
+    "price": 245000
   },
   {
     "id": "catalogo-010",
@@ -69,7 +77,8 @@
     "name": "Mesa Oval",
     "category": "Mesas",
     "image": "/images/la-oficina-catalogue/010.jpg",
-    "alt": "Imagen de catálogo: Mesa Oval"
+    "alt": "Imagen de catálogo: Mesa Oval",
+    "price": 330000
   },
   {
     "id": "catalogo-027",
@@ -77,7 +86,8 @@
     "name": "Escritorio Simple",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/027.jpg",
-    "alt": "Imagen de catálogo: Escritorio Simple"
+    "alt": "Imagen de catálogo: Escritorio Simple",
+    "price": 235000
   },
   {
     "id": "catalogo-028",
@@ -85,7 +95,8 @@
     "name": "Sillas Ergonómicas",
     "category": "Sillas",
     "image": "/images/la-oficina-catalogue/028.jpg",
-    "alt": "Imagen de catálogo: Sillas Ergonómicas"
+    "alt": "Imagen de catálogo: Sillas Ergonómicas",
+    "price": 195000
   },
   {
     "id": "catalogo-029",
@@ -93,7 +104,8 @@
     "name": "Sillas Administrativas",
     "category": "Sillas",
     "image": "/images/la-oficina-catalogue/029.jpg",
-    "alt": "Imagen de catálogo: Sillas Administrativas"
+    "alt": "Imagen de catálogo: Sillas Administrativas",
+    "price": 145000
   },
   {
     "id": "catalogo-030",
@@ -101,7 +113,8 @@
     "name": "GUD",
     "category": "Sillas",
     "image": "/images/la-oficina-catalogue/030.jpg",
-    "alt": "Imagen de catálogo: GUD"
+    "alt": "Imagen de catálogo: GUD",
+    "price": 225000
   },
   {
     "id": "catalogo-031",
@@ -109,7 +122,8 @@
     "name": "Escritorio con cajonera colgante de 2 cajones",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/031.jpg",
-    "alt": "Imagen de catálogo: Escritorio con cajonera colgante de 2 cajones"
+    "alt": "Imagen de catálogo: Escritorio con cajonera colgante de 2 cajones",
+    "price": 319000
   },
   {
     "id": "catalogo-032",
@@ -117,7 +131,8 @@
     "name": "Mesa de Reunión",
     "category": "Mesas",
     "image": "/images/la-oficina-catalogue/032.jpg",
-    "alt": "Imagen de catálogo: Mesa de Reunión"
+    "alt": "Imagen de catálogo: Mesa de Reunión",
+    "price": 445000
   },
   {
     "id": "catalogo-033",
@@ -125,7 +140,8 @@
     "name": "Puesto de Trabajo Desnivel",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/033.jpg",
-    "alt": "Imagen de catálogo: Puesto de Trabajo Desnivel"
+    "alt": "Imagen de catálogo: Puesto de Trabajo Desnivel",
+    "price": 367000
   },
   {
     "id": "catalogo-034",
@@ -133,7 +149,8 @@
     "name": "Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/034.jpg",
-    "alt": "Imagen de catálogo: Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones"
+    "alt": "Imagen de catálogo: Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones",
+    "price": 488000
   },
   {
     "id": "catalogo-039",
@@ -141,7 +158,8 @@
     "name": "Mesa de Reunión- Dos Tapas",
     "category": "Mesas",
     "image": "/images/la-oficina-catalogue/039.jpg",
-    "alt": "Imagen de catálogo: Mesa de Reunión- Dos Tapas"
+    "alt": "Imagen de catálogo: Mesa de Reunión- Dos Tapas",
+    "price": 585000
   },
   {
     "id": "catalogo-040",
@@ -149,7 +167,8 @@
     "name": "Mesa de Reunión- Una Tapa",
     "category": "Mesas",
     "image": "/images/la-oficina-catalogue/040.jpg",
-    "alt": "Imagen de catálogo: Mesa de Reunión- Una Tapa"
+    "alt": "Imagen de catálogo: Mesa de Reunión- Una Tapa",
+    "price": 432000
   },
   {
     "id": "catalogo-046",
@@ -157,7 +176,8 @@
     "name": "Mesa de Reunión- Tres Tapas",
     "category": "Mesas",
     "image": "/images/la-oficina-catalogue/046.jpg",
-    "alt": "Imagen de catálogo: Mesa de Reunión- Tres Tapas"
+    "alt": "Imagen de catálogo: Mesa de Reunión- Tres Tapas",
+    "price": 780000
   },
   {
     "id": "catalogo-047",
@@ -165,7 +185,8 @@
     "name": "Mesa de Reunión - Dos Tapas",
     "category": "Mesas",
     "image": "/images/la-oficina-catalogue/047.jpg",
-    "alt": "Imagen de catálogo: Mesa de Reunión - Dos Tapas"
+    "alt": "Imagen de catálogo: Mesa de Reunión - Dos Tapas",
+    "price": 565000
   },
   {
     "id": "catalogo-048",
@@ -173,7 +194,8 @@
     "name": "Mesa de Reunión - Una Tapa",
     "category": "Mesas",
     "image": "/images/la-oficina-catalogue/048.jpg",
-    "alt": "Imagen de catálogo: Mesa de Reunión - Una Tapa"
+    "alt": "Imagen de catálogo: Mesa de Reunión - Una Tapa",
+    "price": 418000
   },
   {
     "id": "catalogo-049",
@@ -181,7 +203,8 @@
     "name": "Puesto de trabajo en forma de \"L\"",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/049.jpg",
-    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\""
+    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\"",
+    "price": 342000
   },
   {
     "id": "catalogo-050",
@@ -189,7 +212,8 @@
     "name": "Puesto de trabajo Desnivel Caño Cerrado",
     "category": "Escritorios",
     "image": "/images/la-oficina-catalogue/050.jpg",
-    "alt": "Imagen de catálogo: Puesto de trabajo Desnivel Caño Cerrado"
+    "alt": "Imagen de catálogo: Puesto de trabajo Desnivel Caño Cerrado",
+    "price": 399000
   },
   {
     "id": "catalogo-051",
@@ -197,7 +221,8 @@
     "name": "Linea Mica",
     "category": "Líneas",
     "image": "/images/la-oficina-catalogue/051.jpg",
-    "alt": "Imagen de catálogo: Linea Mica"
+    "alt": "Imagen de catálogo: Linea Mica",
+    "price": 320000
   },
   {
     "id": "catalogo-052",
@@ -205,7 +230,8 @@
     "name": "Linea Duna",
     "category": "Líneas",
     "image": "/images/la-oficina-catalogue/052.jpg",
-    "alt": "Imagen de catálogo: Linea Duna"
+    "alt": "Imagen de catálogo: Linea Duna",
+    "price": 385000
   },
   {
     "id": "catalogo-053",
@@ -213,7 +239,8 @@
     "name": "Cajonera rodante de tres cajones",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/053.jpg",
-    "alt": "Imagen de catálogo: Cajonera rodante de tres cajones"
+    "alt": "Imagen de catálogo: Cajonera rodante de tres cajones",
+    "price": 171000
   },
   {
     "id": "catalogo-057",
@@ -221,7 +248,8 @@
     "name": "Linea Vetta",
     "category": "Líneas",
     "image": "/images/la-oficina-catalogue/057.jpg",
-    "alt": "Imagen de catálogo: Linea Vetta"
+    "alt": "Imagen de catálogo: Linea Vetta",
+    "price": 450000
   },
   {
     "id": "catalogo-058",
@@ -229,7 +257,8 @@
     "name": "Biblioteca con puertas corredizas baja",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/058.jpg",
-    "alt": "Imagen de catálogo: Biblioteca con puertas corredizas baja"
+    "alt": "Imagen de catálogo: Biblioteca con puertas corredizas baja",
+    "price": 229000
   },
   {
     "id": "catalogo-065",
@@ -237,7 +266,8 @@
     "name": "Armario Bajo Abierto de 0,45",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/065.jpg",
-    "alt": "Imagen de catálogo: Armario Bajo Abierto de 0,45"
+    "alt": "Imagen de catálogo: Armario Bajo Abierto de 0,45",
+    "price": 99000
   },
   {
     "id": "catalogo-066",
@@ -245,7 +275,8 @@
     "name": "Archivo de 0,90",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/066.jpg",
-    "alt": "Imagen de catálogo: Archivo de 0,90"
+    "alt": "Imagen de catálogo: Archivo de 0,90",
+    "price": 214000
   },
   {
     "id": "catalogo-067",
@@ -253,7 +284,8 @@
     "name": "Armario Cerrado de 0,45",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/067.jpg",
-    "alt": "Imagen de catálogo: Armario Cerrado de 0,45"
+    "alt": "Imagen de catálogo: Armario Cerrado de 0,45",
+    "price": 128000
   },
   {
     "id": "catalogo-068",
@@ -261,7 +293,8 @@
     "name": "Cajonera pedestal de 1 cajón",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/068.jpg",
-    "alt": "Imagen de catálogo: Cajonera pedestal de 1 cajón"
+    "alt": "Imagen de catálogo: Cajonera pedestal de 1 cajón",
+    "price": 85000
   },
   {
     "id": "catalogo-069",
@@ -269,7 +302,8 @@
     "name": "Cajonera pedestal de 4 cajones",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/069.jpg",
-    "alt": "Imagen de catálogo: Cajonera pedestal de 4 cajones"
+    "alt": "Imagen de catálogo: Cajonera pedestal de 4 cajones",
+    "price": 178000
   },
   {
     "id": "catalogo-070",
@@ -277,7 +311,8 @@
     "name": "Biblioteca Media Puerta",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/070.jpg",
-    "alt": "Imagen de catálogo: Biblioteca Media Puerta"
+    "alt": "Imagen de catálogo: Biblioteca Media Puerta",
+    "price": 205000
   },
   {
     "id": "catalogo-077",
@@ -285,7 +320,8 @@
     "name": "Armario Alto Abierto de 1,80",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/077.jpg",
-    "alt": "Imagen de catálogo: Armario Alto Abierto de 1,80"
+    "alt": "Imagen de catálogo: Armario Alto Abierto de 1,80",
+    "price": 265000
   },
   {
     "id": "catalogo-078",
@@ -293,7 +329,8 @@
     "name": "Armario Alto Cerrado de 1,80",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/078.jpg",
-    "alt": "Imagen de catálogo: Armario Alto Cerrado de 1,80"
+    "alt": "Imagen de catálogo: Armario Alto Cerrado de 1,80",
+    "price": 315000
   },
   {
     "id": "catalogo-079",
@@ -301,7 +338,8 @@
     "name": "Armario Cerrado de 1,35",
     "category": "Guardado",
     "image": "/images/la-oficina-catalogue/079.jpg",
-    "alt": "Imagen de catálogo: Armario Cerrado de 1,35"
+    "alt": "Imagen de catálogo: Armario Cerrado de 1,35",
+    "price": 219000
   },
   {
     "id": "catalogo-080",
@@ -309,7 +347,8 @@
     "name": "Sillones Ejecutivos",
     "category": "Sillas",
     "image": "/images/la-oficina-catalogue/080.jpg",
-    "alt": "Imagen de catálogo: Sillones Ejecutivos"
+    "alt": "Imagen de catálogo: Sillones Ejecutivos",
+    "price": 275000
   },
   {
     "id": "catalogo-086",
@@ -317,7 +356,8 @@
     "name": "Taburetes",
     "category": "Sillas",
     "image": "/images/la-oficina-catalogue/086.jpg",
-    "alt": "Imagen de catálogo: Taburetes"
+    "alt": "Imagen de catálogo: Taburetes",
+    "price": 105000
   },
   {
     "id": "catalogo-087",
@@ -325,6 +365,7 @@
     "name": "Sillas Residenciales",
     "category": "Sillas",
     "image": "/images/la-oficina-catalogue/087.jpg",
-    "alt": "Imagen de catálogo: Sillas Residenciales"
+    "alt": "Imagen de catálogo: Sillas Residenciales",
+    "price": 129000
   }
 ]

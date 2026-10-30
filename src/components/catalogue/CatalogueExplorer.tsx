@@ -80,7 +80,7 @@ export function CatalogueExplorer() {
           <div><p className="eyebrow">Selección de mobiliario</p><h2 id="products-title">{activeCategory?.label ?? "Todas las piezas"}</h2></div>
           <p role="status" aria-live="polite">{visibleProducts.length} {visibleProducts.length === 1 ? "referencia" : "referencias"}</p>
         </div>
-        <p className="catalog-note">Imágenes y denominaciones del catálogo compartido. Precios y disponibilidad pendientes de confirmación.{!hasWhatsAppContact() && " Las consultas por producto se habilitarán al confirmar el WhatsApp oficial."}</p>
+        <p className="catalog-note"><strong>Precios ilustrativos para esta demostración. No representan valores oficiales de La Oficina Amoblamientos.</strong> Imágenes y denominaciones del catálogo compartido. Consultá por disponibilidad.{!hasWhatsAppContact() && " Las consultas por producto se habilitarán al confirmar el WhatsApp oficial."}</p>
         <div className="catalog-mosaic">
           {visibleProducts.map((product) => <ProductCard product={product} headingLevel={3} key={product.id} />)}
         </div>
