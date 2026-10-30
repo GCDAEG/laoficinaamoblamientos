@@ -1,0 +1,2 @@
+[     -94ms] [ERROR] The Content Security Policy directive 'upgrade-insecure-requests' is ignored when delivered in a report-only policy. @ https://api.whatsapp.com/send/?phone=5493425460071&text=Hola%2C+vi+%C2%ABLinea+Mica%C2%BB+en+el+cat%C3%A1logo+de+La+Oficina+Amoblamientos+y+quisiera+consultar+por+precio+y+disponibilidad.&type=phone_number&app_absent=0:0
+[    1262ms] [ERROR] Manifest: Line: 1, column: 1, Syntax error. @ https://api.whatsapp.com/data/manifest.json:0

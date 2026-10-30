@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 
 const iconClassName = "pointer-events-none absolute size-[1.8rem] transition-[opacity,transform] duration-[350ms] ease-[cubic-bezier(.2,.8,.2,1)]";
@@ -7,8 +8,16 @@ const iconClassName = "pointer-events-none absolute size-[1.8rem] transition-[op
 export function FloatingWhatsApp() {
   const [open, setOpen] = useState(false);
   const [draft, setDraft] = useState("");
+  const [showBackToTop, setShowBackToTop] = useState(false);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const toggleRef = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => {
+    const update = () => setShowBackToTop(window.scrollY > 500);
+    update();
+    window.addEventListener("scroll", update, { passive: true });
+    return () => window.removeEventListener("scroll", update);
+  }, []);
 
   useEffect(() => {
     if (open) inputRef.current?.focus();
@@ -19,20 +28,36 @@ export function FloatingWhatsApp() {
     toggleRef.current?.focus();
   }
 
+  function backToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "instant" : "smooth",
+    });
+    document.querySelector<HTMLAnchorElement>(".brand-link")?.focus({ preventScroll: true });
+  }
+
   return (
     <aside
-      className="fixed right-[clamp(1rem,3vw,2rem)] bottom-[clamp(1rem,3vw,2rem)] z-20 size-14"
-      aria-label="Consulta por WhatsApp"
+      className="fixed right-[clamp(1rem,3vw,2rem)] bottom-[clamp(1rem,3vw,2rem)] size-14"
+      aria-label="Accesos rápidos"
     >
+      {showBackToTop && !open && <button
+        type="button"
+        onClick={backToTop}
+        aria-label="Volver arriba"
+        className="absolute z-10 right-1.5 bottom-[calc(100%+0.75rem)] grid size-11 touch-manipulation cursor-pointer place-items-center rounded-full border border-[#d8d8d5] bg-white text-[#333] shadow-[0_2px_8px_rgb(0_0_0_/_8%)] transition-colors duration-200 hover:border-[#777] hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#111]"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" className="size-5" aria-hidden="true" focusable="false"><path d="M12 19V5m-6 6 6-6 6 6" /></svg>
+      </button>}
       <div
         id="chat-preview"
-        className={`absolute right-0 bottom-[calc(100%+0.75rem)] flex max-h-[calc(100dvh-6rem)] w-[min(22rem,calc(100vw-2rem))] origin-bottom-right flex-col overflow-hidden border border-[#e6e6e2] bg-white shadow-[0_12px_36px_rgb(0_0_0_/_16%)] transition-[opacity,transform,visibility] duration-[350ms] ease-[cubic-bezier(.2,.8,.2,1)] ${open ? "visible translate-y-0 scale-100 opacity-100 pointer-events-auto" : "invisible translate-y-3 scale-[.94] opacity-0 pointer-events-none"}`}
+        className={`absolute z-50 right-0 bottom-[calc(100%+0.75rem)] flex max-h-[calc(100dvh-6rem)] w-[min(22rem,calc(100vw-2rem))] origin-bottom-right flex-col overflow-hidden border border-[#e6e6e2] bg-white shadow-[0_12px_36px_rgb(0_0_0_/_16%)] transition-[opacity,transform,visibility] duration-[350ms] ease-[cubic-bezier(.2,.8,.2,1)] ${open ? "visible translate-y-0 scale-100 opacity-100 pointer-events-auto" : "invisible translate-y-3 scale-[.94] opacity-0 pointer-events-none"}`}
         aria-hidden={!open}
         inert={!open}
         onKeyDown={(event) => { if (event.key === "Escape") closeChat(); }}
       >
         <div className="flex items-center gap-3 border-b border-[#e8e8e5] px-[1.1rem] py-4">
-          <span className="grid size-9 shrink-0 place-items-center rounded-full bg-[#111] font-[var(--serif)] text-[1.1rem] leading-none text-white" aria-hidden="true">LO</span>
+          <Image src="/images/la-oficina-demo/logo-la-oficina.png" alt="" width={54} height={45} className="h-11 w-auto shrink-0 object-contain" />
           <div>
             <strong className="block text-[.83rem] font-semibold">La Oficina</strong>
             <span className="block text-[.7rem] text-[#666]">Vista previa de consulta</span>

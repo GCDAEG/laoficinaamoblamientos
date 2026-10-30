@@ -83,14 +83,14 @@ Paleta monocromática **de interfaz**. El color surge principalmente de la fotog
 
 ## 5. Composición global: cambio estructural real
 
-La demo utiliza **dos rutas**: la portada `/` con una selección breve y `/catalogo` con todas las fichas identificadas. El formulario de la portada recibe la selección realizada desde ambas rutas.
+La demo utiliza **dos rutas**: la portada `/` con una selección breve y `/catalogo` con todas las fichas identificadas. La consulta rápida por producto prepara un mensaje de WhatsApp; el formulario de la portada atiende proyectos y consultas generales.
 
 **Recorrido recomendado:**
 
 1. **Portada fotográfica / showroom** — primera pantalla visual y comercial.
 2. **Colecciones / categorías** — franja o mosaico de 3–5 familias sin depender de tarjetas iguales.
 3. **Selección de mobiliario** — catálogo curado modular con piezas destacadas y secundarias; acciones de consulta visibles.
-4. **La Oficina / trayectoria y proyectos** — integración compacta en un bloque editorial dentro del recorrido, no gran banda negra obligatoria.
+4. **La Oficina / trayectoria y proyectos** — sección editorial propia, con fotografía y tipografía de marca, entre la selección de productos y el contacto.
 5. **Consulta** — cierre claro y funcional, con formulario mantenido de V1.
 
 Se pueden combinar colecciones y selección si crea una mejor experiencia. Evitar cinco bloques autónomos idénticos separados por espacio vacío. No utilizar numeración de sección como estilo por defecto.
@@ -112,34 +112,34 @@ Se pueden combinar colecciones y selección si crea una mejor experiencia. Evita
 ### 5.2 Colecciones / familias
 
 - La franja de navegación presenta las agrupaciones propuestas del export: **Líneas**, **Escritorios**, **Sillas**, **Mesas** y **Guardado**.
-- Cada enlace de la portada lleva a su grupo dentro de `/catalogo`. Los recuentos indican cuántas fichas con nombre hay en cada grupo.
-- Cada acceso incorpora una miniatura del propio catálogo, presentada a tamaño contenido para respetar la resolución de origen. La imagen acompaña al nombre de la categoría y tiene texto alternativo vacío para evitar duplicarlo.
-- En pantallas angostas, el carril se desplaza horizontalmente con gesto táctil y ofrece controles visibles para avanzar o retroceder.
+- Cada enlace de la portada abre `/catalogo?categoria={id}` con la categoría filtrada; el recuento de fichas se mantiene en la etiqueta accesible del enlace.
+- En la portada, cada acceso retoma el patrón de historias destacadas: círculo negro con doble anillo gris oscuro, icono blanco de `react-icons` centrado y nombre negro debajo del círculo. En pantallas angostas, el carril se desplaza horizontalmente con gesto táctil y controles visibles.
+- En `/catalogo`, los cinco accesos forman una grilla compacta sin espacios, con fotos del catálogo aportado, una capa oscura y el nombre superpuesto. Funcionan como filtros y señalan la selección activa. En móvil se organizan en dos columnas y la última pieza ocupa el ancho completo.
 
 ### 5.3 Selección curada / catálogo
 
-- Mostrar una selección de 7 entradas en la portada con un enlace editorial «Ver catálogo completo». La ruta `/catalogo` presenta las 41 entradas con nombre del export de WhatsApp. La primera entrada es la marca y las 49 imágenes sin nombre no se convierten en fichas.
+- Mostrar una selección de 7 entradas en la portada con un enlace editorial «Ver catálogo completo». La ruta `/catalogo` presenta inicialmente las 41 entradas con nombre del export de WhatsApp y filtra por categoría mediante una barra compacta sticky, sincronizada con la URL. La primera entrada es la marca y las 49 imágenes sin nombre no se convierten en fichas.
 - Las miniaturas fuente llegan hasta 240 px; usar una grilla contenida y mostrar el producto entero con `object-fit: contain`.
-- Cada ficha presenta el nombre del archivo y una acción **«Consultar»** claramente visible. La acción selecciona la entrada correcta en el formulario existente.
-- Conservar la tarjeta editorial de trayectoria en la selección de la portada; la página completa se centra en las fichas y sus categorías.
+- Cada ficha presenta el nombre del archivo y una acción **«Consultar»** claramente visible. La acción abre WhatsApp con el nombre correcto y el número de contacto aportado por el usuario.
+- La trayectoria se presenta después de la selección de la portada, en una sección independiente; la página completa se centra en las fichas y sus categorías.
 - No inferir precios, especificaciones o disponibilidad. Evitar carrito, favoritos y filtros complejos.
 
 ### 5.4 Trayectoria e identidad
 
-- Los «50 años» pueden aparecer como un **gesto editorial breve** junto a marca, materiales o contenido, sin un enorme bloque negro usado solo para variar el fondo.
-- Si se introduce una banda oscura, debe tener función propia y contenido significativo; no repetir el bloque V1 por inercia.
+- Los «50 años» son el centro del titular «50 años pensando espacios.», en una sección de fondo grafito con fotografía de mobiliario, texto breve y un único enlace a contacto.
+- La composición combina imagen amplia y contenido tipográfico sobre grafito. En móvil, el orden es titular, imagen, texto y CTA. La fotografía generada se señala como ilustrativa y queda preparada para reemplazo.
 - No inventar testimonios, clientela, fechas exactas ni estadísticas.
 
 ### 5.5 Consulta
 
-- Mantener formulario sencillo de `BRIEF.md`: nombre, localidad, producto/proyecto, comentario opcional y WhatsApp cuando exista número confirmado.
-- Mantener **estado React único** para el producto seleccionado desde el catálogo; no romper interacción ya implementada.
+- Mantener formulario sencillo de `BRIEF.md`: nombre, localidad, tipo de proyecto y comentario opcional. El formulario funciona independientemente de las consultas por producto.
+- Si el número oficial sigue pendiente, permitir preparar un borrador claro sin indicar que se envió.
 - Visualmente debe sentirse parte del showroom: buena jerarquía, separación y legibilidad; no panel gris genérico con decenas de bordes.
 - CTA final puede ser sólido y claro; es la acción de conversión. Nunca simular envío ni WhatsApp activo si no está configurado.
 
 ## 6. Sistema de enlaces, botones y controles
 
-- En esta demo, el header y el footer incorporan iconos monocromáticos de Instagram y Facebook, deshabilitados hasta confirmar destinos oficiales. El botón flotante de WhatsApp abre un panel de borrador con una transición breve; el panel indica que el envío aún no está disponible.
+- En esta demo, el header y el footer incorporan iconos monocromáticos: Instagram enlaza al perfil aportado por el usuario y Facebook permanece deshabilitado hasta confirmar su destino. El botón flotante de WhatsApp conserva su panel de borrador como interacción independiente de las consultas por producto.
 
 **No diseñar una biblioteca de «botones modernos» genéricos.** La interacción nace del contenido.
 
@@ -177,7 +177,7 @@ Se pueden combinar colecciones y selección si crea una mejor experiencia. Evita
 
 **Rehacer visualmente:** hero, navegación visual, estructura de colecciones, disposición del catálogo, integración editorial de trayectoria y tratamiento visual de contacto/footer.
 
-**Conservar si funciona:** rutas/anclas, datos de productos, selección por estado React, formulario/validaciones, construcción de mensajes de WhatsApp, accesibilidad, setup Next.js y configuración existente.
+**Conservar si funciona:** rutas/anclas, datos de productos, formulario/validaciones, construcción de mensajes de WhatsApp, accesibilidad, setup Next.js y configuración existente.
 
 No comenzar desde cero ni añadir librerías para compensar falta de dirección de arte. Se admite reorganizar componentes si simplifica el nuevo diseño. No desplegar sin autorización.
 
@@ -190,7 +190,7 @@ No comenzar desde cero ni añadir librerías para compensar falta de dirección 
 5. «Consultar» es fácil de encontrar y accionar en desktop, touch y teclado.
 6. Fotos ilustrativas identificadas, fotos reales atribuidas correctamente, sin precios ni stock ficticios.
 7. Logo y monocromía preservados.
-8. El formulario y selección entre catálogo/formulario siguen funcionando.
+8. La consulta por producto y el formulario de proyectos funcionan como recorridos separados.
 9. Pruebas visuales en móvil, tablet, 1366 y 1440; informar cuáles efectivamente se realizaron.
 10. No desplegar todavía.
 
@@ -204,15 +204,15 @@ No comenzar desde cero ni añadir librerías para compensar falta de dirección 
 | Identidad LO en blanco/negro y serif | Confirmada como criterio |
 | Rediseño visual completo sin rehacer lógica funcional | Recomendado |
 | Fotografías definitivas y recursos reales dentro del repo | Pendiente de selección/copia |
-| Número de WhatsApp y datos de contacto | Pendiente de verificación |
+| Número de WhatsApp | Enlace de Instagram aportado por el usuario: `https://wa.me/5493425460071` |
 | Publicación de demo | No autorizada |
 
 ## 13. Implementación y disponibilidad de referencias
 
 - El hero conserva su fotografía ilustrativa; el catálogo presenta imágenes extraídas del export de WhatsApp aportado por el usuario.
-- La portada muestra 7 fichas y la ruta `/catalogo` agrupa las 41 fichas con nombre en cinco secciones. Las 49 imágenes sin nombre y la entrada de marca quedan fuera de las fichas para evitar atribuciones incorrectas.
+- La portada muestra 7 fichas y la ruta `/catalogo` permite filtrar las 41 fichas con nombre por cinco categorías. Las 49 imágenes sin nombre y la entrada de marca quedan fuera de las fichas para evitar atribuciones incorrectas.
 - Las imágenes de producto tienen una resolución máxima de 240 px, por lo que se usan tarjetas contenidas y encuadres sin recorte.
-- El formulario, el estado del producto y el desplazamiento de consulta se conservan. El número de WhatsApp sigue pendiente.
+- El formulario de proyectos se conserva sin selección de producto. Las fichas abren consultas directas por WhatsApp con el número aportado por el usuario.
 - Las capturas de referencia editorial mencionadas en versiones anteriores del brief no están disponibles localmente; la dirección visual se basa en las indicaciones escritas.
 
 ## 14. Dirección vigente del hero
@@ -221,4 +221,4 @@ No comenzar desde cero ni añadir librerías para compensar falta de dirección 
 - En escritorio, la fotografía forma un banner panorámico de aproximadamente 380–440 px de alto, seguido por una franja clara con título y acción. La primera pantalla deja ver el inicio de las colecciones.
 - En móvil, el encuadre fotográfico tiene altura moderada y el texto permanece debajo sobre blanco; no se superpone a muebles ni plantas.
 - Se conserva `hero-showroom-illustrative.jpg`, identificada como imagen ilustrativa. Su procedencia requiere confirmación antes de publicar.
-- El titular «Muebles para vivir y trabajar.» responde a esta iteración. La acción «Explorar colección» conserva el ancla funcional `#productos` y se presenta como enlace tipográfico sin iconos decorativos.
+- El titular «Muebles para vivir y trabajar.» responde a esta iteración. La acción «Ver catálogo» abre `/catalogo` y se presenta como enlace tipográfico sin iconos decorativos.

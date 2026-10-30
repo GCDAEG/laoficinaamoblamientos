@@ -15,5 +15,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
-  return <html lang="es-AR"><body className={`${cormorant.variable} ${inter.variable}`}>{children}<FloatingWhatsApp /></body></html>;
+  return <html lang="es-AR" data-scroll-behavior="smooth"><body className={`${cormorant.variable} ${inter.variable}`}>{children}<FloatingWhatsApp /></body></html>;
 }

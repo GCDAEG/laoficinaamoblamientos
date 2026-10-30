@@ -11,9 +11,9 @@ export type Product = {
 
 export const productCategories = [
   { id: "lineas", label: "Líneas", image: "/images/la-oficina-catalogue/051.jpg" },
-  { id: "escritorios", label: "Escritorios", image: "/images/la-oficina-catalogue/005.jpg" },
-  { id: "sillas", label: "Sillas", image: "/images/la-oficina-catalogue/028.jpg" },
-  { id: "mesas", label: "Mesas", image: "/images/la-oficina-catalogue/009.jpg" },
+  { id: "escritorios", label: "Escritorios", image: "/images/la-oficina-catalogue/008.jpg" },
+  { id: "sillas", label: "Sillas", image: "/images/la-oficina-catalogue/030.jpg" },
+  { id: "mesas", label: "Mesas", image: "/images/la-oficina-catalogue/032.jpg" },
   { id: "guardado", label: "Guardado", image: "/images/la-oficina-catalogue/079.jpg" },
 ] as const;
 

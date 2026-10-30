@@ -1,0 +1,357 @@
+- generic [active] [ref=f1e1]:
+  - link "Ir al contenido" [ref=f1e171] [cursor=pointer]:
+    - /url: "#contenido"
+  - banner [ref=f1e172]:
+    - generic [ref=f1e173]:
+      - link "La Oficina Amoblamientos, ir al inicio" [ref=f1e174] [cursor=pointer]:
+        - /url: /#inicio
+      - navigation "Navegación principal" [ref=f1e175]:
+        - link "Catálogo" [ref=f1e176] [cursor=pointer]:
+          - /url: /catalogo
+        - link "Nosotros" [ref=f1e177] [cursor=pointer]:
+          - /url: /#nosotros
+        - link "Contacto" [ref=f1e178] [cursor=pointer]:
+          - /url: /#contacto
+      - generic "Redes sociales" [ref=f1e179]:
+        - link "Instagram de La Oficina Amoblamientos" [ref=f1e180] [cursor=pointer]:
+          - /url: https://www.instagram.com/laoficinaamoblamientossc/
+        - button "Facebook, enlace pendiente" [disabled] [ref=f1e185]
+      - link "Hacer una consulta" [ref=f1e188] [cursor=pointer]:
+        - /url: /#contacto
+  - main [ref=f1e189]:
+    - region [ref=f1e190]:
+      - paragraph [ref=f1e191]: La Oficina Amoblamientos
+      - heading "Catálogo" [level=1] [ref=f1e192]
+      - paragraph [ref=f1e193]: Explorá el mobiliario por categoría y encontrá la pieza para tu espacio.
+    - group "Explorar por categoría" [ref=f1e195]:
+      - button "Líneas, 3 referencias" [ref=f1e196] [cursor=pointer]:
+        - generic [ref=f1e197]: Líneas
+      - button "Escritorios, 10 referencias" [ref=f1e198] [cursor=pointer]:
+        - generic [ref=f1e199]: Escritorios
+      - button "Sillas, 6 referencias" [ref=f1e200] [cursor=pointer]:
+        - generic [ref=f1e201]: Sillas
+      - button "Mesas, 8 referencias" [ref=f1e202] [cursor=pointer]:
+        - generic [ref=f1e203]: Mesas
+      - button "Guardado, 14 referencias" [ref=f1e204] [cursor=pointer]:
+        - generic [ref=f1e205]: Guardado
+    - region [ref=f1e206]:
+      - group "Filtrar productos por categoría" [ref=f1e208]:
+        - button "Todos" [pressed] [ref=f1e209] [cursor=pointer]
+        - button "Líneas, 3 referencias" [ref=f1e210] [cursor=pointer]: Líneas
+        - button "Escritorios, 10 referencias" [ref=f1e211] [cursor=pointer]: Escritorios
+        - button "Sillas, 6 referencias" [ref=f1e212] [cursor=pointer]: Sillas
+        - button "Mesas, 8 referencias" [ref=f1e213] [cursor=pointer]: Mesas
+        - button "Guardado, 14 referencias" [ref=f1e214] [cursor=pointer]: Guardado
+      - generic [ref=f1e215]:
+        - generic [ref=f1e216]:
+          - generic [ref=f1e217]:
+            - paragraph [ref=f1e218]: Selección de mobiliario
+            - heading "Todas las piezas" [level=2] [ref=f1e219]
+          - status [ref=f1e220]: 41 referencias
+        - paragraph [ref=f1e221]: Imágenes y denominaciones del catálogo compartido. Precios y disponibilidad pendientes de confirmación.
+        - generic [ref=f1e222]:
+          - article [ref=f1e223]:
+            - 'img "Imagen de catálogo: Armario Bajo Abierto de 0,74" [ref=f1e225]'
+            - generic [ref=f1e226]:
+              - heading "Armario Bajo Abierto de 0,74" [level=3] [ref=f1e227]
+              - link "Consultar por Armario Bajo Abierto de 0,74 en WhatsApp" [ref=f1e228] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArmario%20Bajo%20Abierto%20de%200%2C74%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e229]:
+            - 'img "Imagen de catálogo: Armario Bajo de 0,74" [ref=f1e231]'
+            - generic [ref=f1e232]:
+              - heading "Armario Bajo de 0,74" [level=3] [ref=f1e233]
+              - link "Consultar por Armario Bajo de 0,74 en WhatsApp" [ref=f1e234] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArmario%20Bajo%20de%200%2C74%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e235]:
+            - 'img "Imagen de catálogo: Armario Abierto de 1,35" [ref=f1e237]'
+            - generic [ref=f1e238]:
+              - heading "Armario Abierto de 1,35" [level=3] [ref=f1e239]
+              - link "Consultar por Armario Abierto de 1,35 en WhatsApp" [ref=f1e240] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArmario%20Abierto%20de%201%2C35%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e241]:
+            - 'img "Imagen de catálogo: Escritorio Simple Caño Cerrado" [ref=f1e243]'
+            - generic [ref=f1e244]:
+              - heading "Escritorio Simple Caño Cerrado" [level=3] [ref=f1e245]
+              - link "Consultar por Escritorio Simple Caño Cerrado en WhatsApp" [ref=f1e246] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABEscritorio%20Simple%20Ca%C3%B1o%20Cerrado%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e247]:
+            - 'img "Imagen de catálogo: Puesto de trabajo en forma de \"L\" simple" [ref=f1e249]'
+            - generic [ref=f1e250]:
+              - heading "Puesto de trabajo en forma de \"L\" simple" [level=3] [ref=f1e251]
+              - link "Consultar por Puesto de trabajo en forma de \"L\" simple en WhatsApp" [ref=f1e252] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABPuesto%20de%20trabajo%20en%20forma%20de%20%22L%22%20simple%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e253]:
+            - 'img "Imagen de catálogo: Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón" [ref=f1e255]'
+            - generic [ref=f1e256]:
+              - heading "Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón" [level=3] [ref=f1e257]
+              - link "Consultar por Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón en WhatsApp" [ref=f1e258] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABPuesto%20de%20trabajo%20en%20forma%20de%20%22L%22%20con%20cajonera%20pedestal%20de%201%20caj%C3%B3n%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e259]:
+            - 'img "Imagen de catálogo: Puesto de trabajo con extensión y cajonera de un cajón" [ref=f1e261]'
+            - generic [ref=f1e262]:
+              - heading "Puesto de trabajo con extensión y cajonera de un cajón" [level=3] [ref=f1e263]
+              - link "Consultar por Puesto de trabajo con extensión y cajonera de un cajón en WhatsApp" [ref=f1e264] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABPuesto%20de%20trabajo%20con%20extensi%C3%B3n%20y%20cajonera%20de%20un%20caj%C3%B3n%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e265]:
+            - 'img "Imagen de catálogo: Mesa Redonda" [ref=f1e267]'
+            - generic [ref=f1e268]:
+              - heading "Mesa Redonda" [level=3] [ref=f1e269]
+              - link "Consultar por Mesa Redonda en WhatsApp" [ref=f1e270] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABMesa%20Redonda%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e271]:
+            - 'img "Imagen de catálogo: Mesa Oval" [ref=f1e273]'
+            - generic [ref=f1e274]:
+              - heading "Mesa Oval" [level=3] [ref=f1e275]
+              - link "Consultar por Mesa Oval en WhatsApp" [ref=f1e276] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABMesa%20Oval%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e277]:
+            - 'img "Imagen de catálogo: Escritorio Simple" [ref=f1e279]'
+            - generic [ref=f1e280]:
+              - heading "Escritorio Simple" [level=3] [ref=f1e281]
+              - link "Consultar por Escritorio Simple en WhatsApp" [ref=f1e282] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABEscritorio%20Simple%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e283]:
+            - 'img "Imagen de catálogo: Sillas Ergonómicas" [ref=f1e285]'
+            - generic [ref=f1e286]:
+              - heading "Sillas Ergonómicas" [level=3] [ref=f1e287]
+              - link "Consultar por Sillas Ergonómicas en WhatsApp" [ref=f1e288] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABSillas%20Ergon%C3%B3micas%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e289]:
+            - 'img "Imagen de catálogo: Sillas Administrativas" [ref=f1e291]'
+            - generic [ref=f1e292]:
+              - heading "Sillas Administrativas" [level=3] [ref=f1e293]
+              - link "Consultar por Sillas Administrativas en WhatsApp" [ref=f1e294] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABSillas%20Administrativas%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e295]:
+            - 'img "Imagen de catálogo: GUD" [ref=f1e297]'
+            - generic [ref=f1e298]:
+              - heading "GUD" [level=3] [ref=f1e299]
+              - link "Consultar por GUD en WhatsApp" [ref=f1e300] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABGUD%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e301]:
+            - 'img "Imagen de catálogo: Escritorio con cajonera colgante de 2 cajones" [ref=f1e303]'
+            - generic [ref=f1e304]:
+              - heading "Escritorio con cajonera colgante de 2 cajones" [level=3] [ref=f1e305]
+              - link "Consultar por Escritorio con cajonera colgante de 2 cajones en WhatsApp" [ref=f1e306] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABEscritorio%20con%20cajonera%20colgante%20de%202%20cajones%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e307]:
+            - 'img "Imagen de catálogo: Mesa de Reunión" [ref=f1e309]'
+            - generic [ref=f1e310]:
+              - heading "Mesa de Reunión" [level=3] [ref=f1e311]
+              - link "Consultar por Mesa de Reunión en WhatsApp" [ref=f1e312] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABMesa%20de%20Reuni%C3%B3n%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e313]:
+            - 'img "Imagen de catálogo: Puesto de Trabajo Desnivel" [ref=f1e315]'
+            - generic [ref=f1e316]:
+              - heading "Puesto de Trabajo Desnivel" [level=3] [ref=f1e317]
+              - link "Consultar por Puesto de Trabajo Desnivel en WhatsApp" [ref=f1e318] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABPuesto%20de%20Trabajo%20Desnivel%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e319]:
+            - 'img "Imagen de catálogo: Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones" [ref=f1e321]'
+            - generic [ref=f1e322]:
+              - heading "Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones" [level=3] [ref=f1e323]
+              - link "Consultar por Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones en WhatsApp" [ref=f1e324] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABPuesto%20de%20Trabajo%20en%20forma%20de%20%22L%22%20con%20cajonera%20de%204%20cajones%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e325]:
+            - 'img "Imagen de catálogo: Mesa de Reunión- Dos Tapas" [ref=f1e327]'
+            - generic [ref=f1e328]:
+              - heading "Mesa de Reunión- Dos Tapas" [level=3] [ref=f1e329]
+              - link "Consultar por Mesa de Reunión- Dos Tapas en WhatsApp" [ref=f1e330] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABMesa%20de%20Reuni%C3%B3n-%20Dos%20Tapas%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e331]:
+            - 'img "Imagen de catálogo: Mesa de Reunión- Una Tapa" [ref=f1e333]'
+            - generic [ref=f1e334]:
+              - heading "Mesa de Reunión- Una Tapa" [level=3] [ref=f1e335]
+              - link "Consultar por Mesa de Reunión- Una Tapa en WhatsApp" [ref=f1e336] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABMesa%20de%20Reuni%C3%B3n-%20Una%20Tapa%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e337]:
+            - 'img "Imagen de catálogo: Mesa de Reunión- Tres Tapas" [ref=f1e339]'
+            - generic [ref=f1e340]:
+              - heading "Mesa de Reunión- Tres Tapas" [level=3] [ref=f1e341]
+              - link "Consultar por Mesa de Reunión- Tres Tapas en WhatsApp" [ref=f1e342] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABMesa%20de%20Reuni%C3%B3n-%20Tres%20Tapas%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e343]:
+            - 'img "Imagen de catálogo: Mesa de Reunión - Dos Tapas" [ref=f1e345]'
+            - generic [ref=f1e346]:
+              - heading "Mesa de Reunión - Dos Tapas" [level=3] [ref=f1e347]
+              - link "Consultar por Mesa de Reunión - Dos Tapas en WhatsApp" [ref=f1e348] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABMesa%20de%20Reuni%C3%B3n%20-%20Dos%20Tapas%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e349]:
+            - 'img "Imagen de catálogo: Mesa de Reunión - Una Tapa" [ref=f1e351]'
+            - generic [ref=f1e352]:
+              - heading "Mesa de Reunión - Una Tapa" [level=3] [ref=f1e353]
+              - link "Consultar por Mesa de Reunión - Una Tapa en WhatsApp" [ref=f1e354] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABMesa%20de%20Reuni%C3%B3n%20-%20Una%20Tapa%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e355]:
+            - 'img "Imagen de catálogo: Puesto de trabajo en forma de \"L\"" [ref=f1e357]'
+            - generic [ref=f1e358]:
+              - heading "Puesto de trabajo en forma de \"L\"" [level=3] [ref=f1e359]
+              - link "Consultar por Puesto de trabajo en forma de \"L\" en WhatsApp" [ref=f1e360] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABPuesto%20de%20trabajo%20en%20forma%20de%20%22L%22%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e361]:
+            - 'img "Imagen de catálogo: Puesto de trabajo Desnivel Caño Cerrado" [ref=f1e363]'
+            - generic [ref=f1e364]:
+              - heading "Puesto de trabajo Desnivel Caño Cerrado" [level=3] [ref=f1e365]
+              - link "Consultar por Puesto de trabajo Desnivel Caño Cerrado en WhatsApp" [ref=f1e366] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABPuesto%20de%20trabajo%20Desnivel%20Ca%C3%B1o%20Cerrado%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e367]:
+            - 'img "Imagen de catálogo: Linea Mica" [ref=f1e369]'
+            - generic [ref=f1e370]:
+              - heading "Linea Mica" [level=3] [ref=f1e371]
+              - link "Consultar por Linea Mica en WhatsApp" [ref=f1e372] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABLinea%20Mica%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e373]:
+            - 'img "Imagen de catálogo: Linea Duna" [ref=f1e375]'
+            - generic [ref=f1e376]:
+              - heading "Linea Duna" [level=3] [ref=f1e377]
+              - link "Consultar por Linea Duna en WhatsApp" [ref=f1e378] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABLinea%20Duna%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e379]:
+            - 'img "Imagen de catálogo: Cajonera rodante de tres cajones" [ref=f1e381]'
+            - generic [ref=f1e382]:
+              - heading "Cajonera rodante de tres cajones" [level=3] [ref=f1e383]
+              - link "Consultar por Cajonera rodante de tres cajones en WhatsApp" [ref=f1e384] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABCajonera%20rodante%20de%20tres%20cajones%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e385]:
+            - 'img "Imagen de catálogo: Linea Vetta" [ref=f1e387]'
+            - generic [ref=f1e388]:
+              - heading "Linea Vetta" [level=3] [ref=f1e389]
+              - link "Consultar por Linea Vetta en WhatsApp" [ref=f1e390] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABLinea%20Vetta%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e391]:
+            - 'img "Imagen de catálogo: Biblioteca con puertas corredizas baja" [ref=f1e393]'
+            - generic [ref=f1e394]:
+              - heading "Biblioteca con puertas corredizas baja" [level=3] [ref=f1e395]
+              - link "Consultar por Biblioteca con puertas corredizas baja en WhatsApp" [ref=f1e396] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABBiblioteca%20con%20puertas%20corredizas%20baja%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e397]:
+            - 'img "Imagen de catálogo: Armario Bajo Abierto de 0,45" [ref=f1e399]'
+            - generic [ref=f1e400]:
+              - heading "Armario Bajo Abierto de 0,45" [level=3] [ref=f1e401]
+              - link "Consultar por Armario Bajo Abierto de 0,45 en WhatsApp" [ref=f1e402] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArmario%20Bajo%20Abierto%20de%200%2C45%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e403]:
+            - 'img "Imagen de catálogo: Archivo de 0,90" [ref=f1e405]'
+            - generic [ref=f1e406]:
+              - heading "Archivo de 0,90" [level=3] [ref=f1e407]
+              - link "Consultar por Archivo de 0,90 en WhatsApp" [ref=f1e408] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArchivo%20de%200%2C90%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e409]:
+            - 'img "Imagen de catálogo: Armario Cerrado de 0,45" [ref=f1e411]'
+            - generic [ref=f1e412]:
+              - heading "Armario Cerrado de 0,45" [level=3] [ref=f1e413]
+              - link "Consultar por Armario Cerrado de 0,45 en WhatsApp" [ref=f1e414] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArmario%20Cerrado%20de%200%2C45%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e415]:
+            - 'img "Imagen de catálogo: Cajonera pedestal de 1 cajón" [ref=f1e417]'
+            - generic [ref=f1e418]:
+              - heading "Cajonera pedestal de 1 cajón" [level=3] [ref=f1e419]
+              - link "Consultar por Cajonera pedestal de 1 cajón en WhatsApp" [ref=f1e420] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABCajonera%20pedestal%20de%201%20caj%C3%B3n%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e421]:
+            - 'img "Imagen de catálogo: Cajonera pedestal de 4 cajones" [ref=f1e423]'
+            - generic [ref=f1e424]:
+              - heading "Cajonera pedestal de 4 cajones" [level=3] [ref=f1e425]
+              - link "Consultar por Cajonera pedestal de 4 cajones en WhatsApp" [ref=f1e426] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABCajonera%20pedestal%20de%204%20cajones%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e427]:
+            - 'img "Imagen de catálogo: Biblioteca Media Puerta" [ref=f1e429]'
+            - generic [ref=f1e430]:
+              - heading "Biblioteca Media Puerta" [level=3] [ref=f1e431]
+              - link "Consultar por Biblioteca Media Puerta en WhatsApp" [ref=f1e432] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABBiblioteca%20Media%20Puerta%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e433]:
+            - 'img "Imagen de catálogo: Armario Alto Abierto de 1,80" [ref=f1e435]'
+            - generic [ref=f1e436]:
+              - heading "Armario Alto Abierto de 1,80" [level=3] [ref=f1e437]
+              - link "Consultar por Armario Alto Abierto de 1,80 en WhatsApp" [ref=f1e438] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArmario%20Alto%20Abierto%20de%201%2C80%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e439]:
+            - 'img "Imagen de catálogo: Armario Alto Cerrado de 1,80" [ref=f1e441]'
+            - generic [ref=f1e442]:
+              - heading "Armario Alto Cerrado de 1,80" [level=3] [ref=f1e443]
+              - link "Consultar por Armario Alto Cerrado de 1,80 en WhatsApp" [ref=f1e444] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArmario%20Alto%20Cerrado%20de%201%2C80%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e445]:
+            - 'img "Imagen de catálogo: Armario Cerrado de 1,35" [ref=f1e447]'
+            - generic [ref=f1e448]:
+              - heading "Armario Cerrado de 1,35" [level=3] [ref=f1e449]
+              - link "Consultar por Armario Cerrado de 1,35 en WhatsApp" [ref=f1e450] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABArmario%20Cerrado%20de%201%2C35%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e451]:
+            - 'img "Imagen de catálogo: Sillones Ejecutivos" [ref=f1e453]'
+            - generic [ref=f1e454]:
+              - heading "Sillones Ejecutivos" [level=3] [ref=f1e455]
+              - link "Consultar por Sillones Ejecutivos en WhatsApp" [ref=f1e456] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABSillones%20Ejecutivos%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e457]:
+            - 'img "Imagen de catálogo: Taburetes" [ref=f1e459]'
+            - generic [ref=f1e460]:
+              - heading "Taburetes" [level=3] [ref=f1e461]
+              - link "Consultar por Taburetes en WhatsApp" [ref=f1e462] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABTaburetes%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+          - article [ref=f1e463]:
+            - 'img "Imagen de catálogo: Sillas Residenciales" [ref=f1e465]'
+            - generic [ref=f1e466]:
+              - heading "Sillas Residenciales" [level=3] [ref=f1e467]
+              - link "Consultar por Sillas Residenciales en WhatsApp" [ref=f1e468] [cursor=pointer]:
+                - /url: https://wa.me/5493425460071?text=Hola%2C%20vi%20%C2%ABSillas%20Residenciales%C2%BB%20en%20el%20cat%C3%A1logo%20de%20La%20Oficina%20Amoblamientos%20y%20quisiera%20consultar%20por%20precio%20y%20disponibilidad.
+                - text: Consultar
+  - contentinfo [ref=f1e469]:
+    - generic [ref=f1e470]:
+      - link "La Oficina Amoblamientos, volver al inicio" [ref=f1e471] [cursor=pointer]:
+        - /url: /#inicio
+      - paragraph [ref=f1e472]: Demo conceptual no oficial desarrollada por TUWEBHOY.
+      - generic "Redes sociales" [ref=f1e473]:
+        - link "Instagram de La Oficina Amoblamientos" [ref=f1e474] [cursor=pointer]:
+          - /url: https://www.instagram.com/laoficinaamoblamientossc/
+        - button "Facebook, enlace pendiente" [disabled] [ref=f1e479]
+      - link "Volver arriba ↑" [ref=f1e482] [cursor=pointer]:
+        - /url: "#contenido"
+    - generic [ref=f1e483]:
+      - generic [ref=f1e484]: Santa Fe, Argentina · datos de contacto pendientes de confirmación
+      - generic [ref=f1e485]: La Oficina Amoblamientos
+  - complementary "Consulta por WhatsApp" [ref=f1e160]:
+    - button "Abrir vista previa de WhatsApp" [ref=f1e161] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f1e167] [cursor=pointer]
+  - alert [ref=f1e486]: Catálogo | La Oficina Amoblamientos

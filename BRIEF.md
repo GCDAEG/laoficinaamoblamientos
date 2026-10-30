@@ -20,10 +20,10 @@
 Demostrar cómo La Oficina podría transformar su presencia digital en un **catálogo editorial contemporáneo**, conservar su identidad y facilitar la exploración de categorías, productos y consultas.
 
 - **Objetivo principal:** que el visitante reconozca la marca, descubra la oferta y pueda consultar por un producto o proyecto.
-- **CTA principal del hero:** «Explorar colección» → `#productos` (ancla funcional de la demo).
-- **CTA por producto:** «Consultar» → seleccionar producto y llevar al formulario `#contacto`.
+- **CTA principal del hero:** «Ver catálogo» → `/catalogo`.
+- **CTA por producto:** «Consultar» → WhatsApp con el nombre real de la pieza y el número publicado en el Instagram oficial, aportado por el usuario.
 - **CTA para proyectos:** «Consultar por un proyecto» → `#contacto`, dejando la consulta abierta y editable.
-- **CTA final:** «Continuar por WhatsApp», solo cuando se confirme el número de destino; si no, interfaz de demo señalizada como pendiente, sin fingir envíos.
+- **CTA final:** «Continuar por WhatsApp» con el número de contacto aportado por el usuario; el visitante revisa el mensaje antes de enviarlo.
 - **Criterio de éxito:** primera impresión de calidad, navegación clara, identidad reconocible y flujo de consulta comprensible en escritorio y móvil.
 
 ## 3. Tipo y alcance
@@ -33,7 +33,7 @@ Demostrar cómo La Oficina podría transformar su presencia digital en un **cat�
 - **Stack preferido:** Next.js, React, TypeScript, Tailwind CSS; respetar el stack y convenciones del repositorio.
 - **Secciones principales:** hero, exploración por categorías, selección de productos, trayectoria/servicios y contacto; header y footer.
 - **Datos de productos:** archivo local tipado, fácilmente reemplazable.
-- **Interacción principal:** selección de producto en la portada por estado React; desde `/catalogo`, el enlace «Consultar» vuelve al formulario con el identificador de producto en la URL para precargar la selección.
+- **Interacción principal:** consulta directa por producto mediante un mensaje de WhatsApp construido desde la ficha, sin pasar por el formulario. El formulario queda reservado para proyectos y consultas generales.
 - **Imágenes:** se permiten fotografías ilustrativas temporales de muebles, **rotuladas como tales**. Las piezas originales del negocio tienen prioridad cuando estén disponibles localmente y resulten adecuadas.
 - **Complejidad:** construir la menor solución que permita evaluar una web visualmente terminada. Nada de desarrollar sistemas antes de validación comercial.
 
@@ -43,7 +43,8 @@ Demostrar cómo La Oficina podría transformar su presencia digital en un **cat�
 
 ### Header
 - Usar logo original cuando esté incorporado al repositorio; no redibujarlo.
-- Navegación compacta: «Colección», «Nosotros», «Contacto» (solo si cada ancla existe).
+- Navegación compacta: «Catálogo» → `/catalogo`, «Nosotros» → `/#nosotros` y «Contacto» → `/#contacto`.
+- Al avanzar en la página, aparece un acceso flotante discreto para volver arriba, ubicado sobre el botón de WhatsApp. Se oculta mientras la vista previa del chat está abierta.
 - Un CTA de contacto opcional, sin competir con el hero.
 
 ### 01 — Hero editorial
@@ -52,32 +53,34 @@ Demostrar cómo La Oficina podría transformar su presencia digital en un **cat�
 - Mostrar el logo/identidad de forma reconocible.
 - **Titular solicitado para esta iteración:** «Muebles para vivir y trabajar.» Es texto de la demo, pendiente de aprobación comercial.
 - **Texto de apoyo sugerido:** «Mobiliario para oficinas y hogares. Explorá nuestra colección y encontrá inspiración para tu próximo espacio.»
-- CTA del hero: «Explorar colección» → `#productos` (ancla funcional existente).
+- CTA del hero: «Ver catálogo» → `/catalogo`.
 - Mención de **50 años de trayectoria** de forma contenida y solo conforme a lo comunicado, sin añadir fechas, premios ni historia inventada.
 
 ### 02 — Colección por categorías (`#coleccion`)
 - Para esta demo, agrupar las entradas con nombre del archivo `whatsapp-catalogue-2026-10-29.json` en **Líneas**, **Escritorios**, **Sillas**, **Mesas** y **Guardado**. Esta agrupación es una propuesta de navegación, no una taxonomía confirmada por el negocio.
-- Cada acceso lleva a la sección correspondiente de `/catalogo`; evitar destinos vacíos.
-- Mostrar una miniatura representativa extraída de las fichas de cada grupo, sin atribuirla a toda la categoría como producto único.
+- Cada acceso abre `/catalogo?categoria={id}` con la categoría correspondiente filtrada; evitar destinos vacíos.
+- En la portada, cada categoría se presenta como un círculo negro de doble anillo gris oscuro con un icono blanco centrado; el nombre aparece debajo del círculo.
+- En `/catalogo`, las categorías forman una grilla fotográfica compacta sin separaciones, con el nombre superpuesto sobre una capa oscura. Sus imágenes activan un filtro compartido con una barra compacta sticky. Las fotos proceden de fichas del catálogo aportado y representan una pieza de cada grupo, no la categoría completa.
+- El recuento de referencias queda disponible en el nombre accesible de cada control.
 
 ### 03 — Selección en portada (`#productos`) y catálogo completo (`/catalogo`)
 - El archivo provisto contiene 91 imágenes, de las cuales 41 corresponden a entradas con nombre de producto o línea. La primera entrada identifica la marca y 49 imágenes carecen de nombre; esas 50 entradas no se publican como fichas independientes.
-- La portada muestra 7 entradas representativas y un enlace «Ver catálogo completo». La ruta `/catalogo` muestra las 41 entradas con nombre, conserva sus denominaciones y fotos, y ofrece «Consultar» para volver al formulario con la pieza seleccionada.
+- La portada muestra 7 entradas representativas y un enlace «Ver catálogo completo». La ruta `/catalogo` muestra inicialmente las 41 entradas con nombre, permite filtrarlas por categoría con una URL compartible y conserva sus denominaciones y fotos. «Consultar» abre WhatsApp con el nombre de la pieza.
 - Las imágenes incrustadas son miniaturas de hasta 240 px. Evitar tarjetas de imagen muy grandes o recortes que oculten productos.
 - El archivo no informa precio, descripción, disponibilidad ni enlaces de producto. No completar esos campos por inferencia.
 
 ### 04 — Trayectoria y asesoramiento (`#nosotros`)
-- Bloque editorial breve para comunicar trayectoria y capacidad de atender espacios de oficina/hogar.
-- Texto propuesto: «Una mirada sobre el mobiliario que acompaña cada espacio.»
-- Se puede señalar «50 años de trayectoria» como afirmación aportada por el usuario, pendiente de verificación pública.
+- Sección editorial independiente entre la selección de productos y el formulario, con fotografía de ambiente ilustrativa y CTA «Hablemos de tu proyecto» → `#contacto`.
+- Título solicitado: «50 años pensando espacios.» Texto de apoyo propuesto: «Una trayectoria dedicada al mobiliario para oficinas y hogares, con soluciones para distintos espacios y necesidades.»
+- La cifra de 50 años fue comunicada por la marca según el contexto aportado; confirmar su redacción pública antes de publicar el sitio definitivo.
 - Evitar frases no sustentadas como «fabricación propia», «líderes», «envíos a todo el país» o «diseños exclusivos».
 
 ### 05 — Contacto (`#contacto`)
 - Encabezado propuesto: «Conversemos sobre tu próximo espacio.»
-- Formulario sin backend con **nombre**, **producto o tipo de proyecto**, **localidad** y **mensaje opcional**.
-- Si se llega desde «Consultar», precargar el producto correcto. El campo debe seguir siendo editable y ofrecer la opción «Consulta general / proyecto».
+- Formulario sin backend con **nombre**, **localidad**, **tipo de consulta o proyecto** y **mensaje opcional**. Se orienta a amoblamiento a medida, oficinas, interiorismo y consultas generales.
+- La consulta por producto no utiliza este formulario ni parámetros `?producto=`.
 - Validar lo obligatorio y generar un mensaje comprensible, con caracteres codificados para WhatsApp.
-- **No activar `wa.me` hasta verificar el número oficial.** Mientras esté pendiente, deshabilitar esa acción con explicación visible o ofrecer vista previa/copia del texto, claramente identificada como demo. Nunca simular éxito de envío.
+- El número de contacto para `wa.me` se tomó del enlace oficial aportado por el usuario. Nunca simular éxito de envío.
 
 ### Footer
 - Datos públicos solo cuando estén verificados.
@@ -96,8 +99,8 @@ Las imágenes se extraen de `image_data` a `public/images/la-oficina-catalogue/`
 
 ## 6. Contacto y enlaces
 
-- **WhatsApp oficial:** pendiente de confirmar; **no reutilizar** números de otros negocios o demos.
-- **Instagram:** pendiente de proporcionar/verificar URL exacta.
+- **WhatsApp de contacto:** `https://wa.me/5493425460071`, enlace publicado en el Instagram oficial según lo aportado por el usuario. No reutilizar números de otros negocios o demos.
+- **Instagram:** `https://www.instagram.com/laoficinaamoblamientossc/`, perfil aportado por el usuario; enlazar los iconos del header y footer.
 - **Facebook:** se muestra un icono de ejemplo en la demo; la URL oficial está pendiente de proporcionar/verificar.
 - **Dirección, teléfono, correo, horarios, cobertura de envíos y pagos:** pendientes; no completarlos por inferencia.
 - **Nombre Martín:** aparece en el contexto del encargo como interlocutor; no mostrarlo como titular/representante público sin confirmación.
@@ -118,7 +121,7 @@ Las imágenes se extraen de `image_data` a `public/images/la-oficina-catalogue/`
 1. La identidad de La Oficina se reconoce inmediatamente; ningún rastro de Fagnani ni de otras demos.
 2. Hero fuerte y legible, especialmente en 1366×768 y 390×844.
 3. Categorías y productos visualmente coherentes; distinguir material real de ilustraciones temporales.
-4. «Consultar» precarga exactamente el producto; el estado se conserva al editar y navegar por anclas.
+4. «Consultar» construye el mensaje con el producto exacto y no desplaza al formulario.
 5. Flujo compatible con mouse, touch y teclado, sin `CustomEvent`/`sessionStorage` como puente entre componentes.
 6. WhatsApp solo se habilita con número oficial verificado; sin mensajes de envío ficticios.
 7. Sin precios, stock, materiales o condiciones comerciales inventados.
@@ -137,13 +140,16 @@ Las imágenes se extraen de `image_data` a `public/images/la-oficina-catalogue/`
 | Imágenes del catálogo de WhatsApp | Aportadas en JSON | Usar las 41 entradas con nombre; conservar referencia al índice de origen |
 | Fotografías temporales | Autorizadas para la demo | Rotular y reemplazar después |
 | Precio, descripción y disponibilidad de las fichas | Pendiente | Confirmar antes de publicar datos comerciales |
-| WhatsApp, Instagram y dirección oficial | Pendiente | Verificar antes de enlazar |
+| WhatsApp | Enlace aportado por el usuario | Usar `https://wa.me/5493425460071` para consultas |
+| Instagram | Perfil aportado por el usuario | Enlazar `https://www.instagram.com/laoficinaamoblamientossc/` |
+| Dirección oficial | Pendiente | Verificar antes de publicar |
 | Despliegue | No autorizado | Esperar revisión y orden expresa |
 
 ## 10. Estado de implementación
 
-- La portada conserva el banner fotográfico ilustrativo, presenta 7 fichas y mantiene la tarjeta de trayectoria. La ruta `/catalogo` reúne las 41 entradas con nombre del export de WhatsApp en cinco grupos.
+- La portada conserva el banner fotográfico ilustrativo, presenta 7 fichas y ubica «Nosotros» en una sección editorial independiente. La ruta `/catalogo` reúne las 41 entradas con nombre del export de WhatsApp y permite filtrarlas en cinco categorías.
+- La imagen de `public/images/la-oficina-demo/about-illustrative.webp` fue generada para esta demo y se rotula como ilustrativa. Es temporal y debe reemplazarse por una fotografía autorizada del negocio cuando esté disponible.
 - Las fotografías de producto proceden del archivo aportado y ya no se rotulan como imágenes ilustrativas. Las 49 imágenes sin nombre no se muestran como fichas.
-- La selección de producto, el formulario, la validación, el desplazamiento a contacto y el armado de WhatsApp se preservaron. El número oficial sigue pendiente, por lo que la acción no se activa.
-- El header y el footer muestran iconos deshabilitados de Instagram y Facebook. El botón flotante de WhatsApp abre una vista previa de chat con borrador local; no envía mensajes mientras falte el número oficial.
+- Las consultas por producto y por proyecto tienen recorridos separados. Los botones de producto abren WhatsApp con un mensaje personalizado y el número aportado por el usuario.
+- El header y el footer enlazan Instagram al perfil aportado por el usuario; Facebook continúa sin destino confirmado. El botón flotante de WhatsApp mantiene una vista previa de chat con borrador local, independiente de las consultas por producto.
 - Los archivos de referencia solicitados no estaban presentes en el workspace; la comparación visual directa queda pendiente. Se siguió la dirección escrita en `DESIGN.md`.

@@ -1,11 +1,28 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { MdTableRestaurant } from "react-icons/md";
+import { PiDesk, PiLockers, PiOfficeChair, PiStack } from "react-icons/pi";
+import type { IconType } from "react-icons";
 import { productCategories, products } from "@/data/products";
 
-export function CategoryRail({ onCataloguePage = false }: { onCataloguePage?: boolean }) {
+type CategoryId = (typeof productCategories)[number]["id"];
+
+const categoryIcons: Record<CategoryId, IconType> = {
+  lineas: PiStack,
+  escritorios: PiDesk,
+  sillas: PiOfficeChair,
+  mesas: MdTableRestaurant,
+  guardado: PiLockers,
+};
+
+function CategoryIcon({ id }: { id: CategoryId }) {
+  const Icon = categoryIcons[id];
+  return <Icon aria-hidden="true" focusable="false" />;
+}
+
+export function CategoryRail() {
   const railRef = useRef<HTMLElement>(null);
   const [canScroll, setCanScroll] = useState({ back: false, forward: true });
 
@@ -35,9 +52,9 @@ export function CategoryRail({ onCataloguePage = false }: { onCataloguePage?: bo
 
   return <div className="category-rail-wrapper">
     <nav ref={railRef} className="category-rail" aria-label="Explorar por categoría">
-      {productCategories.map((category) => <Link href={`${onCataloguePage ? "" : "/catalogo"}#catalogo-${category.id}`} key={category.id}>
-        <span className="category-photo"><Image src={category.image} alt="" fill sizes="64px" /></span>
-        <span className="category-meta"><strong>{category.label}</strong><small>{products.filter((product) => product.category === category.label).length} referencias</small></span>
+      {productCategories.map((category) => <Link href={`/catalogo?categoria=${category.id}`} aria-label={`${category.label}, ${products.filter((product) => product.category === category.label).length} referencias`} key={category.id}>
+        <span className="category-rail-orb"><CategoryIcon id={category.id} /></span>
+        <span className="category-rail-name">{category.label}</span>
       </Link>)}
     </nav>
     <div className="category-rail-controls" aria-label="Desplazar categorías">
