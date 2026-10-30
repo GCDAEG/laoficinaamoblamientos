@@ -43,7 +43,8 @@ Demostrar cómo La Oficina podría transformar su presencia digital en un **cat�
 
 ### Header
 - Usar logo original cuando esté incorporado al repositorio; no redibujarlo.
-- Navegación compacta: «Catálogo» → `/catalogo`, «Nosotros» → `/#nosotros` y «Contacto» → `/#contacto`.
+- Navegación compacta: «Inicio» → `/#inicio`, «Catálogo» → `/catalogo`, «Nosotros» → `/#nosotros` y «Contacto» → `/#contacto`.
+- En móvil y tablet, los enlaces se muestran en un menú desplegable bajo la cabecera, accesible por botón y teclado.
 - Al avanzar en la página, aparece un acceso flotante discreto para volver arriba, ubicado sobre el botón de WhatsApp. Se oculta mientras la vista previa del chat está abierta.
 - Un CTA de contacto opcional, sin competir con el hero.
 
@@ -151,5 +152,5 @@ Las imágenes se extraen de `image_data` a `public/images/la-oficina-catalogue/`
 - La imagen de `public/images/la-oficina-demo/about-illustrative.webp` fue generada para esta demo y se rotula como ilustrativa. Es temporal y debe reemplazarse por una fotografía autorizada del negocio cuando esté disponible.
 - Las fotografías de producto proceden del archivo aportado y ya no se rotulan como imágenes ilustrativas. Las 49 imágenes sin nombre no se muestran como fichas.
 - Las consultas por producto y por proyecto tienen recorridos separados. Los botones de producto abren WhatsApp con un mensaje personalizado y el número aportado por el usuario.
-- El header y el footer enlazan Instagram al perfil aportado por el usuario; Facebook continúa sin destino confirmado. El botón flotante de WhatsApp mantiene una vista previa de chat con borrador local, independiente de las consultas por producto.
+- El header y el footer enlazan Instagram al perfil aportado por el usuario; Facebook continúa sin destino confirmado. El botón flotante de WhatsApp mantiene una vista previa de chat con borrador local y un control de envío explícitamente desactivado, independiente de las consultas por producto.
 - Los archivos de referencia solicitados no estaban presentes en el workspace; la comparación visual directa queda pendiente. Se siguió la dirección escrita en `DESIGN.md`.

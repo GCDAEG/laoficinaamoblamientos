@@ -144,6 +144,7 @@ Se pueden combinar colecciones y selección si crea una mejor experiencia. Evita
 **No diseñar una biblioteca de «botones modernos» genéricos.** La interacción nace del contenido.
 
 - **Navegación:** enlaces tipográficos claros, sin iconos repetitivos.
+- En móvil y tablet, usar un desplegable blanco bajo el header, con enlaces serif amplios, gesto de apertura claro y movimiento discreto.
 - **Hero:** CTA integrado editorialmente al bloque visual; puede utilizar subrayado, una franja o indicador distintivo. Debe leerse como acción incluso en móvil, sin hover.
 - **Productos:** acción «Consultar» al mismo nivel visual que el nombre, con tamaño legible y área de toque generosa. No esconder en overlays de hover.
 - **Formulario:** un botón sólido solo donde aporta claridad y jerarquía de conversión.

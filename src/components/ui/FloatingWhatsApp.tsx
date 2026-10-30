@@ -38,7 +38,7 @@ export function FloatingWhatsApp() {
 
   return (
     <aside
-      className="fixed right-[clamp(1rem,3vw,2rem)] bottom-[clamp(1rem,3vw,2rem)] size-14"
+      className="fixed z-20 right-[clamp(1rem,3vw,2rem)] bottom-[clamp(1rem,3vw,2rem)] size-14"
       aria-label="Accesos rápidos"
     >
       {showBackToTop && !open && <button
@@ -84,7 +84,16 @@ export function FloatingWhatsApp() {
             maxLength={500}
             rows={2}
           />
-          <p className="mt-[.6rem] mb-0 text-[.66rem] leading-[1.5] text-[#555]">El envío por WhatsApp estará disponible cuando se confirme el número oficial.</p>
+          <p id="chat-send-note" className="mt-[.6rem] mb-3 text-[.75rem] leading-[1.5] text-[#555]">El envío desde este chat está desactivado. Podés escribir un borrador, pero no se enviará.</p>
+          <button
+            type="button"
+            disabled
+            aria-describedby="chat-send-note"
+            className="flex min-h-11 w-full items-center justify-center gap-2 border border-[#777] bg-[#777] px-4 py-2 text-[.78rem] font-semibold text-white opacity-75 cursor-not-allowed"
+          >
+            Enviar por WhatsApp
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" className="size-4" aria-hidden="true" focusable="false"><path d="m21 3-7.5 18-3.2-7.3L3 10.5 21 3Z" /><path d="m10.3 13.7 5.2-5.2" /></svg>
+          </button>
         </div>
       </div>
       <button

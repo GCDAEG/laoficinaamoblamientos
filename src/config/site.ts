@@ -7,6 +7,7 @@ export const site = {
 };
 
 export const navigation = [
+  { href: "/#inicio", label: "Inicio" },
   { href: "/catalogo", label: "Catálogo" },
   { href: "/#nosotros", label: "Nosotros" },
   { href: "/#contacto", label: "Contacto" },
