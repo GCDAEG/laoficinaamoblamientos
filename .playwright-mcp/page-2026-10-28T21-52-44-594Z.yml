@@ -1,0 +1,163 @@
+- generic [active] [ref=f1e1]:
+  - link "Ir al contenido" [ref=f1e2] [cursor=pointer]:
+    - /url: "#contenido"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "Fagnani Muebles, ir al inicio" [ref=f1e5] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=f1e6]: F
+        - generic [ref=f1e7]:
+          - text: FAGNANI
+          - generic [ref=f1e8]: MUEBLES
+      - navigation "Navegación principal" [ref=f1e9]:
+        - link "Inicio" [ref=f1e10] [cursor=pointer]:
+          - /url: "#inicio"
+        - link "Muebles" [ref=f1e11] [cursor=pointer]:
+          - /url: "#catalogo"
+        - link "Contacto" [ref=f1e12] [cursor=pointer]:
+          - /url: "#consulta"
+      - link "Hacer una consulta" [ref=f1e13] [cursor=pointer]:
+        - /url: "#consulta"
+        - text: Hacer una consulta ↗
+  - main [ref=f1e14]:
+    - region [ref=f1e15]:
+      - generic [ref=f1e16]:
+        - img "Ambiente de comedor con mesa de madera y sillas; imagen ilustrativa" [ref=f1e17]
+        - generic [ref=f1e18]: Imagen ilustrativa
+      - generic [ref=f1e19]:
+        - paragraph [ref=f1e20]: Muebles para el hogar · Rosario
+        - heading "Muebles para hacer de tu casa, tu lugar." [level=1] [ref=f1e21]
+        - paragraph [ref=f1e22]: Explorá nuestros muebles para el hogar y consultanos por el modelo que más te guste.
+        - link "Explorar muebles" [ref=f1e23] [cursor=pointer]:
+          - /url: "#catalogo"
+          - text: Explorar muebles
+          - generic [aria-hidden] [ref=f1e24]: ↘
+        - paragraph [ref=f1e25]:
+          - generic [ref=f1e26]: "01"
+          - text: Una casa se arma de a poco. Empezá por lo que te hace sentir en casa.
+      - generic [aria-hidden] [ref=f1e27]: F / M
+    - region [ref=f1e28]:
+      - generic [ref=f1e29]:
+        - generic [ref=f1e30]:
+          - generic [ref=f1e31]:
+            - paragraph [ref=f1e32]: Una primera mirada · 02
+            - heading "Muebles para cada rincón." [level=2] [ref=f1e33]
+          - paragraph [ref=f1e34]: Encontrá inspiración para tu casa. Elegí un modelo y contanos qué estás buscando.
+        - paragraph [ref=f1e35]: Referencias visuales ilustrativas. Las imágenes y los modelos no corresponden al catálogo confirmado de Fagnani.
+        - generic [ref=f1e36]:
+          - article [ref=f1e37]:
+            - generic [ref=f1e38]:
+              - img "Ambiente con mesa y sillas de madera · imagen ilustrativa" [ref=f1e39]
+              - generic [ref=f1e40]: Imagen ilustrativa
+            - generic [ref=f1e41]:
+              - generic [ref=f1e42]:
+                - paragraph [ref=f1e43]: Comedor
+                - heading "Comedor de madera" [level=3] [ref=f1e44]
+              - button "Consultar" [ref=f1e45] [cursor=pointer]:
+                - text: Consultar
+                - generic [aria-hidden] [ref=f1e46]: ↗
+          - article [ref=f1e47]:
+            - generic [ref=f1e48]:
+              - img "Mesa de madera en un ambiente cálido · imagen ilustrativa" [ref=f1e49]
+              - generic [ref=f1e50]: Imagen ilustrativa
+            - generic [ref=f1e51]:
+              - generic [ref=f1e52]:
+                - paragraph [ref=f1e53]: Mesas
+                - heading "Mesa para el hogar" [level=3] [ref=f1e54]
+              - button "Consultar" [ref=f1e55] [cursor=pointer]:
+                - text: Consultar
+                - generic [aria-hidden] [ref=f1e56]: ↗
+          - article [ref=f1e57]:
+            - generic [ref=f1e58]:
+              - img "Espacio de trabajo con escritorio · imagen ilustrativa" [ref=f1e59]
+              - generic [ref=f1e60]: Imagen ilustrativa
+            - generic [ref=f1e61]:
+              - generic [ref=f1e62]:
+                - paragraph [ref=f1e63]: Escritorios
+                - heading "Escritorio de madera" [level=3] [ref=f1e64]
+              - button "Consultar" [ref=f1e65] [cursor=pointer]:
+                - text: Consultar
+                - generic [aria-hidden] [ref=f1e66]: ↗
+          - article [ref=f1e67]:
+            - generic [ref=f1e68]:
+              - img "Silla de diseño en madera · imagen ilustrativa" [ref=f1e69]
+              - generic [ref=f1e70]: Imagen ilustrativa
+            - generic [ref=f1e71]:
+              - generic [ref=f1e72]:
+                - paragraph [ref=f1e73]: Sillas
+                - heading "Silla de madera" [level=3] [ref=f1e74]
+              - button "Consultar" [ref=f1e75] [cursor=pointer]:
+                - text: Consultar
+                - generic [aria-hidden] [ref=f1e76]: ↗
+          - article [ref=f1e77]:
+            - generic [ref=f1e78]:
+              - img "Living cálido con mobiliario de madera · imagen ilustrativa" [ref=f1e79]
+              - generic [ref=f1e80]: Imagen ilustrativa
+            - generic [ref=f1e81]:
+              - generic [ref=f1e82]:
+                - paragraph [ref=f1e83]: Inspiración
+                - heading "Muebles para el hogar" [level=3] [ref=f1e84]
+              - button "Consultar" [ref=f1e85] [cursor=pointer]:
+                - text: Consultar
+                - generic [aria-hidden] [ref=f1e86]: ↗
+          - article [ref=f1e87]:
+            - generic [ref=f1e88]:
+              - img "Comedor con mesa y sillas · imagen ilustrativa" [ref=f1e89]
+              - generic [ref=f1e90]: Imagen ilustrativa
+            - generic [ref=f1e91]:
+              - generic [ref=f1e92]:
+                - paragraph [ref=f1e93]: Comedor
+                - heading "Mesa de comedor" [level=3] [ref=f1e94]
+              - button "Consultar" [ref=f1e95] [cursor=pointer]:
+                - text: Consultar
+                - generic [aria-hidden] [ref=f1e96]: ↗
+    - region [ref=f1e97]:
+      - generic [ref=f1e98]:
+        - generic [ref=f1e99]:
+          - paragraph [ref=f1e100]: Hablemos de tu próximo mueble · 03
+          - heading "¿Qué estás buscando?" [level=2] [ref=f1e101]
+          - paragraph [ref=f1e102]: Dejanos tus datos y prepará tu consulta para continuar por WhatsApp.
+          - generic [ref=f1e103]:
+            - generic [ref=f1e104]: F
+            - paragraph [ref=f1e105]: Una consulta simple para encontrar el mueble indicado para tu casa.
+        - generic [ref=f1e106]:
+          - generic [ref=f1e107]:
+            - generic [ref=f1e108]:
+              - text: Tu nombre
+              - textbox "Tu nombre" [ref=f1e109]:
+                - /placeholder: ¿Cómo te llamás?
+            - generic [ref=f1e110]:
+              - text: Ciudad o localidad
+              - textbox "Ciudad o localidad" [ref=f1e111]:
+                - /placeholder: Por ejemplo, Rosario
+          - generic [ref=f1e112]:
+            - text: ¿Qué mueble te interesa?
+            - combobox "¿Qué mueble te interesa?" [ref=f1e113]:
+              - option "Elegí un modelo" [selected]
+              - option "Comedor de madera · ilustrativo"
+              - option "Mesa para el hogar · ilustrativo"
+              - option "Escritorio de madera · ilustrativo"
+              - option "Silla de madera · ilustrativo"
+              - option "Muebles para el hogar · ilustrativo"
+              - option "Mesa de comedor · ilustrativo"
+          - generic [ref=f1e114]:
+            - text: ¿Querés contarnos algo más?
+            - generic [ref=f1e115]: Opcional
+            - textbox "¿Querés contarnos algo más? Opcional" [ref=f1e116]:
+              - /placeholder: Escribí tu consulta
+          - button "Preparar consulta por WhatsApp" [ref=f1e117] [cursor=pointer]:
+            - text: Preparar consulta por WhatsApp
+            - generic [aria-hidden] [ref=f1e118]: ↗
+          - paragraph [ref=f1e119]: No guardamos tus datos. El mensaje se abrirá en WhatsApp para que puedas revisarlo y enviarlo.
+          - paragraph [ref=f1e120]: Canal de WhatsApp pendiente de confirmación.
+  - contentinfo [ref=f1e121]:
+    - generic [ref=f1e122]:
+      - link "FAGNANI MUEBLES" [ref=f1e123] [cursor=pointer]:
+        - /url: "#inicio"
+      - paragraph [ref=f1e124]: Demo conceptual no oficial desarrollada por TUWEBHOY.
+      - link "Volver arriba ↑" [ref=f1e125] [cursor=pointer]:
+        - /url: "#inicio"
+    - generic [ref=f1e126]:
+      - generic [ref=f1e127]: Rosario, Santa Fe
+      - generic [ref=f1e128]: Fagnani Muebles · Muebles para el hogar
+  - alert [ref=f1e129]

@@ -1,10 +1,12 @@
-// Datos compartidos. Reemplazar con información confirmada del próximo encargo.
 export const site = {
-  name: "Sitio de ejemplo",
-  description: "Una página institucional de muestra con contenido ilustrativo.",
+  name: "La Oficina Amoblamientos",
+  description: "Propuesta conceptual no oficial de catálogo editorial para La Oficina Amoblamientos.",
+  whatsappNumber: "", // Pendiente: confirmar número oficial antes de habilitar la integración.
+  location: "Santa Fe, Argentina",
 };
 
 export const navigation = [
-  { href: "#inicio", label: "Inicio" },
-  { href: "#presentacion", label: "Presentación" },
+  { href: "/#coleccion", label: "Colección" },
+  { href: "/#nosotros", label: "Nosotros" },
+  { href: "/#contacto", label: "Contacto" },
 ];

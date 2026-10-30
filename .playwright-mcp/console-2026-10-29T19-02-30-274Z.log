@@ -1,0 +1,2 @@
+[     249ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:3000/favicon.ico:0
+[ 2892445ms] [LOG] Dark Reader: instance of old CS detected, cleaning up. @ chrome-extension://eimadpbcbfnmbkopoojfekhnkhdbieeh/inject/index.js:9652

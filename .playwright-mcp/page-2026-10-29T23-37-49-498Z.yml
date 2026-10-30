@@ -1,0 +1,344 @@
+- generic [active] [ref=f1e1]:
+  - link "Ir al contenido" [ref=f1e2] [cursor=pointer]:
+    - /url: "#contenido"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "La Oficina Amoblamientos, ir al inicio" [ref=f1e5] [cursor=pointer]:
+        - /url: /#inicio
+      - navigation "Navegación principal" [ref=f1e6]:
+        - link "Colección" [ref=f1e7] [cursor=pointer]:
+          - /url: /#coleccion
+        - link "Nosotros" [ref=f1e8] [cursor=pointer]:
+          - /url: /#nosotros
+        - link "Contacto" [ref=f1e9] [cursor=pointer]:
+          - /url: /#contacto
+      - generic "Redes sociales pendientes de configurar" [ref=f1e10]:
+        - button "Instagram, enlace pendiente" [disabled] [ref=f1e11]
+        - button "Facebook, enlace pendiente" [disabled] [ref=f1e16]
+      - link "Hacer una consulta" [ref=f1e19] [cursor=pointer]:
+        - /url: /#contacto
+  - main [ref=f1e20]:
+    - region [ref=f1e21]:
+      - paragraph [ref=f1e22]: La Oficina Amoblamientos
+      - heading "Catálogo completo" [level=1] [ref=f1e23]
+      - paragraph [ref=f1e24]: Explorá las piezas y líneas del catálogo compartido. Consultá por detalles y disponibilidad.
+    - navigation "Explorar por categoría" [ref=f1e27]:
+      - link "Líneas 3 referencias" [ref=f1e28] [cursor=pointer]:
+        - /url: "#catalogo-lineas"
+        - generic [ref=f1e30]:
+          - strong [ref=f1e31]: Líneas
+          - generic [ref=f1e32]: 3 referencias
+      - link "Escritorios 10 referencias" [ref=f1e33] [cursor=pointer]:
+        - /url: "#catalogo-escritorios"
+        - generic [ref=f1e35]:
+          - strong [ref=f1e36]: Escritorios
+          - generic [ref=f1e37]: 10 referencias
+      - link "Sillas 6 referencias" [ref=f1e38] [cursor=pointer]:
+        - /url: "#catalogo-sillas"
+        - generic [ref=f1e40]:
+          - strong [ref=f1e41]: Sillas
+          - generic [ref=f1e42]: 6 referencias
+      - link "Mesas 8 referencias" [ref=f1e43] [cursor=pointer]:
+        - /url: "#catalogo-mesas"
+        - generic [ref=f1e45]:
+          - strong [ref=f1e46]: Mesas
+          - generic [ref=f1e47]: 8 referencias
+      - link "Guardado 14 referencias" [ref=f1e48] [cursor=pointer]:
+        - /url: "#catalogo-guardado"
+        - generic [ref=f1e50]:
+          - strong [ref=f1e51]: Guardado
+          - generic [ref=f1e52]: 14 referencias
+    - region [ref=f1e53]:
+      - generic [ref=f1e54]:
+        - generic [ref=f1e55]:
+          - paragraph [ref=f1e56]: Todas las referencias
+          - heading "Piezas y líneas" [level=2] [ref=f1e57]
+        - paragraph [ref=f1e58]: 41 referencias con nombre.
+      - paragraph [ref=f1e59]: Las imágenes y denominaciones provienen del catálogo compartido. Precios y disponibilidad pendientes de confirmación.
+      - region [ref=f1e60]:
+        - generic [ref=f1e61]:
+          - heading "Líneas" [level=3] [ref=f1e62]
+          - generic [ref=f1e63]: 3 referencias
+        - generic [ref=f1e64]:
+          - article [ref=f1e65]:
+            - 'img "Imagen de catálogo: Linea Mica" [ref=f1e67]'
+            - generic [ref=f1e68]:
+              - heading "Linea Mica" [level=4] [ref=f1e69]
+              - link "Consultar" [ref=f1e70] [cursor=pointer]:
+                - /url: /?producto=catalogo-051#contacto
+          - article [ref=f1e71]:
+            - 'img "Imagen de catálogo: Linea Duna" [ref=f1e73]'
+            - generic [ref=f1e74]:
+              - heading "Linea Duna" [level=4] [ref=f1e75]
+              - link "Consultar" [ref=f1e76] [cursor=pointer]:
+                - /url: /?producto=catalogo-052#contacto
+          - article [ref=f1e77]:
+            - 'img "Imagen de catálogo: Linea Vetta" [ref=f1e79]'
+            - generic [ref=f1e80]:
+              - heading "Linea Vetta" [level=4] [ref=f1e81]
+              - link "Consultar" [ref=f1e82] [cursor=pointer]:
+                - /url: /?producto=catalogo-057#contacto
+      - region [ref=f1e83]:
+        - generic [ref=f1e84]:
+          - heading "Escritorios" [level=3] [ref=f1e85]
+          - generic [ref=f1e86]: 10 referencias
+        - generic [ref=f1e87]:
+          - article [ref=f1e88]:
+            - 'img "Imagen de catálogo: Escritorio Simple Caño Cerrado" [ref=f1e90]'
+            - generic [ref=f1e91]:
+              - heading "Escritorio Simple Caño Cerrado" [level=4] [ref=f1e92]
+              - link "Consultar" [ref=f1e93] [cursor=pointer]:
+                - /url: /?producto=catalogo-005#contacto
+          - article [ref=f1e94]:
+            - 'img "Imagen de catálogo: Puesto de trabajo en forma de \"L\" simple" [ref=f1e96]'
+            - generic [ref=f1e97]:
+              - heading "Puesto de trabajo en forma de \"L\" simple" [level=4] [ref=f1e98]
+              - link "Consultar" [ref=f1e99] [cursor=pointer]:
+                - /url: /?producto=catalogo-006#contacto
+          - article [ref=f1e100]:
+            - 'img "Imagen de catálogo: Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón" [ref=f1e102]'
+            - generic [ref=f1e103]:
+              - heading "Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón" [level=4] [ref=f1e104]
+              - link "Consultar" [ref=f1e105] [cursor=pointer]:
+                - /url: /?producto=catalogo-007#contacto
+          - article [ref=f1e106]:
+            - 'img "Imagen de catálogo: Puesto de trabajo con extensión y cajonera de un cajón" [ref=f1e108]'
+            - generic [ref=f1e109]:
+              - heading "Puesto de trabajo con extensión y cajonera de un cajón" [level=4] [ref=f1e110]
+              - link "Consultar" [ref=f1e111] [cursor=pointer]:
+                - /url: /?producto=catalogo-008#contacto
+          - article [ref=f1e112]:
+            - 'img "Imagen de catálogo: Escritorio Simple" [ref=f1e114]'
+            - generic [ref=f1e115]:
+              - heading "Escritorio Simple" [level=4] [ref=f1e116]
+              - link "Consultar" [ref=f1e117] [cursor=pointer]:
+                - /url: /?producto=catalogo-027#contacto
+          - article [ref=f1e118]:
+            - 'img "Imagen de catálogo: Escritorio con cajonera colgante de 2 cajones" [ref=f1e120]'
+            - generic [ref=f1e121]:
+              - heading "Escritorio con cajonera colgante de 2 cajones" [level=4] [ref=f1e122]
+              - link "Consultar" [ref=f1e123] [cursor=pointer]:
+                - /url: /?producto=catalogo-031#contacto
+          - article [ref=f1e124]:
+            - 'img "Imagen de catálogo: Puesto de Trabajo Desnivel" [ref=f1e126]'
+            - generic [ref=f1e127]:
+              - heading "Puesto de Trabajo Desnivel" [level=4] [ref=f1e128]
+              - link "Consultar" [ref=f1e129] [cursor=pointer]:
+                - /url: /?producto=catalogo-033#contacto
+          - article [ref=f1e130]:
+            - 'img "Imagen de catálogo: Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones" [ref=f1e132]'
+            - generic [ref=f1e133]:
+              - heading "Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones" [level=4] [ref=f1e134]
+              - link "Consultar" [ref=f1e135] [cursor=pointer]:
+                - /url: /?producto=catalogo-034#contacto
+          - article [ref=f1e136]:
+            - 'img "Imagen de catálogo: Puesto de trabajo en forma de \"L\"" [ref=f1e138]'
+            - generic [ref=f1e139]:
+              - heading "Puesto de trabajo en forma de \"L\"" [level=4] [ref=f1e140]
+              - link "Consultar" [ref=f1e141] [cursor=pointer]:
+                - /url: /?producto=catalogo-049#contacto
+          - article [ref=f1e142]:
+            - 'img "Imagen de catálogo: Puesto de trabajo Desnivel Caño Cerrado" [ref=f1e144]'
+            - generic [ref=f1e145]:
+              - heading "Puesto de trabajo Desnivel Caño Cerrado" [level=4] [ref=f1e146]
+              - link "Consultar" [ref=f1e147] [cursor=pointer]:
+                - /url: /?producto=catalogo-050#contacto
+      - region [ref=f1e148]:
+        - generic [ref=f1e149]:
+          - heading "Sillas" [level=3] [ref=f1e150]
+          - generic [ref=f1e151]: 6 referencias
+        - generic [ref=f1e152]:
+          - article [ref=f1e153]:
+            - 'img "Imagen de catálogo: Sillas Ergonómicas" [ref=f1e155]'
+            - generic [ref=f1e156]:
+              - heading "Sillas Ergonómicas" [level=4] [ref=f1e157]
+              - link "Consultar" [ref=f1e158] [cursor=pointer]:
+                - /url: /?producto=catalogo-028#contacto
+          - article [ref=f1e159]:
+            - 'img "Imagen de catálogo: Sillas Administrativas" [ref=f1e161]'
+            - generic [ref=f1e162]:
+              - heading "Sillas Administrativas" [level=4] [ref=f1e163]
+              - link "Consultar" [ref=f1e164] [cursor=pointer]:
+                - /url: /?producto=catalogo-029#contacto
+          - article [ref=f1e165]:
+            - 'img "Imagen de catálogo: GUD" [ref=f1e167]'
+            - generic [ref=f1e168]:
+              - heading "GUD" [level=4] [ref=f1e169]
+              - link "Consultar" [ref=f1e170] [cursor=pointer]:
+                - /url: /?producto=catalogo-030#contacto
+          - article [ref=f1e171]:
+            - 'img "Imagen de catálogo: Sillones Ejecutivos" [ref=f1e173]'
+            - generic [ref=f1e174]:
+              - heading "Sillones Ejecutivos" [level=4] [ref=f1e175]
+              - link "Consultar" [ref=f1e176] [cursor=pointer]:
+                - /url: /?producto=catalogo-080#contacto
+          - article [ref=f1e177]:
+            - 'img "Imagen de catálogo: Taburetes" [ref=f1e179]'
+            - generic [ref=f1e180]:
+              - heading "Taburetes" [level=4] [ref=f1e181]
+              - link "Consultar" [ref=f1e182] [cursor=pointer]:
+                - /url: /?producto=catalogo-086#contacto
+          - article [ref=f1e183]:
+            - 'img "Imagen de catálogo: Sillas Residenciales" [ref=f1e185]'
+            - generic [ref=f1e186]:
+              - heading "Sillas Residenciales" [level=4] [ref=f1e187]
+              - link "Consultar" [ref=f1e188] [cursor=pointer]:
+                - /url: /?producto=catalogo-087#contacto
+      - region [ref=f1e189]:
+        - generic [ref=f1e190]:
+          - heading "Mesas" [level=3] [ref=f1e191]
+          - generic [ref=f1e192]: 8 referencias
+        - generic [ref=f1e193]:
+          - article [ref=f1e194]:
+            - 'img "Imagen de catálogo: Mesa Redonda" [ref=f1e196]'
+            - generic [ref=f1e197]:
+              - heading "Mesa Redonda" [level=4] [ref=f1e198]
+              - link "Consultar" [ref=f1e199] [cursor=pointer]:
+                - /url: /?producto=catalogo-009#contacto
+          - article [ref=f1e200]:
+            - 'img "Imagen de catálogo: Mesa Oval" [ref=f1e202]'
+            - generic [ref=f1e203]:
+              - heading "Mesa Oval" [level=4] [ref=f1e204]
+              - link "Consultar" [ref=f1e205] [cursor=pointer]:
+                - /url: /?producto=catalogo-010#contacto
+          - article [ref=f1e206]:
+            - 'img "Imagen de catálogo: Mesa de Reunión" [ref=f1e208]'
+            - generic [ref=f1e209]:
+              - heading "Mesa de Reunión" [level=4] [ref=f1e210]
+              - link "Consultar" [ref=f1e211] [cursor=pointer]:
+                - /url: /?producto=catalogo-032#contacto
+          - article [ref=f1e212]:
+            - 'img "Imagen de catálogo: Mesa de Reunión- Dos Tapas" [ref=f1e214]'
+            - generic [ref=f1e215]:
+              - heading "Mesa de Reunión- Dos Tapas" [level=4] [ref=f1e216]
+              - link "Consultar" [ref=f1e217] [cursor=pointer]:
+                - /url: /?producto=catalogo-039#contacto
+          - article [ref=f1e218]:
+            - 'img "Imagen de catálogo: Mesa de Reunión- Una Tapa" [ref=f1e220]'
+            - generic [ref=f1e221]:
+              - heading "Mesa de Reunión- Una Tapa" [level=4] [ref=f1e222]
+              - link "Consultar" [ref=f1e223] [cursor=pointer]:
+                - /url: /?producto=catalogo-040#contacto
+          - article [ref=f1e224]:
+            - 'img "Imagen de catálogo: Mesa de Reunión- Tres Tapas" [ref=f1e226]'
+            - generic [ref=f1e227]:
+              - heading "Mesa de Reunión- Tres Tapas" [level=4] [ref=f1e228]
+              - link "Consultar" [ref=f1e229] [cursor=pointer]:
+                - /url: /?producto=catalogo-046#contacto
+          - article [ref=f1e230]:
+            - 'img "Imagen de catálogo: Mesa de Reunión - Dos Tapas" [ref=f1e232]'
+            - generic [ref=f1e233]:
+              - heading "Mesa de Reunión - Dos Tapas" [level=4] [ref=f1e234]
+              - link "Consultar" [ref=f1e235] [cursor=pointer]:
+                - /url: /?producto=catalogo-047#contacto
+          - article [ref=f1e236]:
+            - 'img "Imagen de catálogo: Mesa de Reunión - Una Tapa" [ref=f1e238]'
+            - generic [ref=f1e239]:
+              - heading "Mesa de Reunión - Una Tapa" [level=4] [ref=f1e240]
+              - link "Consultar" [ref=f1e241] [cursor=pointer]:
+                - /url: /?producto=catalogo-048#contacto
+      - region [ref=f1e242]:
+        - generic [ref=f1e243]:
+          - heading "Guardado" [level=3] [ref=f1e244]
+          - generic [ref=f1e245]: 14 referencias
+        - generic [ref=f1e246]:
+          - article [ref=f1e247]:
+            - 'img "Imagen de catálogo: Armario Bajo Abierto de 0,74" [ref=f1e249]'
+            - generic [ref=f1e250]:
+              - heading "Armario Bajo Abierto de 0,74" [level=4] [ref=f1e251]
+              - link "Consultar" [ref=f1e252] [cursor=pointer]:
+                - /url: /?producto=catalogo-002#contacto
+          - article [ref=f1e253]:
+            - 'img "Imagen de catálogo: Armario Bajo de 0,74" [ref=f1e255]'
+            - generic [ref=f1e256]:
+              - heading "Armario Bajo de 0,74" [level=4] [ref=f1e257]
+              - link "Consultar" [ref=f1e258] [cursor=pointer]:
+                - /url: /?producto=catalogo-003#contacto
+          - article [ref=f1e259]:
+            - 'img "Imagen de catálogo: Armario Abierto de 1,35" [ref=f1e261]'
+            - generic [ref=f1e262]:
+              - heading "Armario Abierto de 1,35" [level=4] [ref=f1e263]
+              - link "Consultar" [ref=f1e264] [cursor=pointer]:
+                - /url: /?producto=catalogo-004#contacto
+          - article [ref=f1e265]:
+            - 'img "Imagen de catálogo: Cajonera rodante de tres cajones" [ref=f1e267]'
+            - generic [ref=f1e268]:
+              - heading "Cajonera rodante de tres cajones" [level=4] [ref=f1e269]
+              - link "Consultar" [ref=f1e270] [cursor=pointer]:
+                - /url: /?producto=catalogo-053#contacto
+          - article [ref=f1e271]:
+            - 'img "Imagen de catálogo: Biblioteca con puertas corredizas baja" [ref=f1e273]'
+            - generic [ref=f1e274]:
+              - heading "Biblioteca con puertas corredizas baja" [level=4] [ref=f1e275]
+              - link "Consultar" [ref=f1e276] [cursor=pointer]:
+                - /url: /?producto=catalogo-058#contacto
+          - article [ref=f1e277]:
+            - 'img "Imagen de catálogo: Armario Bajo Abierto de 0,45" [ref=f1e279]'
+            - generic [ref=f1e280]:
+              - heading "Armario Bajo Abierto de 0,45" [level=4] [ref=f1e281]
+              - link "Consultar" [ref=f1e282] [cursor=pointer]:
+                - /url: /?producto=catalogo-065#contacto
+          - article [ref=f1e283]:
+            - 'img "Imagen de catálogo: Archivo de 0,90" [ref=f1e285]'
+            - generic [ref=f1e286]:
+              - heading "Archivo de 0,90" [level=4] [ref=f1e287]
+              - link "Consultar" [ref=f1e288] [cursor=pointer]:
+                - /url: /?producto=catalogo-066#contacto
+          - article [ref=f1e289]:
+            - 'img "Imagen de catálogo: Armario Cerrado de 0,45" [ref=f1e291]'
+            - generic [ref=f1e292]:
+              - heading "Armario Cerrado de 0,45" [level=4] [ref=f1e293]
+              - link "Consultar" [ref=f1e294] [cursor=pointer]:
+                - /url: /?producto=catalogo-067#contacto
+          - article [ref=f1e295]:
+            - 'img "Imagen de catálogo: Cajonera pedestal de 1 cajón" [ref=f1e297]'
+            - generic [ref=f1e298]:
+              - heading "Cajonera pedestal de 1 cajón" [level=4] [ref=f1e299]
+              - link "Consultar" [ref=f1e300] [cursor=pointer]:
+                - /url: /?producto=catalogo-068#contacto
+          - article [ref=f1e301]:
+            - 'img "Imagen de catálogo: Cajonera pedestal de 4 cajones" [ref=f1e303]'
+            - generic [ref=f1e304]:
+              - heading "Cajonera pedestal de 4 cajones" [level=4] [ref=f1e305]
+              - link "Consultar" [ref=f1e306] [cursor=pointer]:
+                - /url: /?producto=catalogo-069#contacto
+          - article [ref=f1e307]:
+            - 'img "Imagen de catálogo: Biblioteca Media Puerta" [ref=f1e309]'
+            - generic [ref=f1e310]:
+              - heading "Biblioteca Media Puerta" [level=4] [ref=f1e311]
+              - link "Consultar" [ref=f1e312] [cursor=pointer]:
+                - /url: /?producto=catalogo-070#contacto
+          - article [ref=f1e313]:
+            - 'img "Imagen de catálogo: Armario Alto Abierto de 1,80" [ref=f1e315]'
+            - generic [ref=f1e316]:
+              - heading "Armario Alto Abierto de 1,80" [level=4] [ref=f1e317]
+              - link "Consultar" [ref=f1e318] [cursor=pointer]:
+                - /url: /?producto=catalogo-077#contacto
+          - article [ref=f1e319]:
+            - 'img "Imagen de catálogo: Armario Alto Cerrado de 1,80" [ref=f1e321]'
+            - generic [ref=f1e322]:
+              - heading "Armario Alto Cerrado de 1,80" [level=4] [ref=f1e323]
+              - link "Consultar" [ref=f1e324] [cursor=pointer]:
+                - /url: /?producto=catalogo-078#contacto
+          - article [ref=f1e325]:
+            - 'img "Imagen de catálogo: Armario Cerrado de 1,35" [ref=f1e327]'
+            - generic [ref=f1e328]:
+              - heading "Armario Cerrado de 1,35" [level=4] [ref=f1e329]
+              - link "Consultar" [ref=f1e330] [cursor=pointer]:
+                - /url: /?producto=catalogo-079#contacto
+  - contentinfo [ref=f1e331]:
+    - generic [ref=f1e332]:
+      - link "La Oficina Amoblamientos, volver al inicio" [ref=f1e333] [cursor=pointer]:
+        - /url: /#inicio
+      - paragraph [ref=f1e334]: Demo conceptual no oficial desarrollada por TUWEBHOY.
+      - generic "Redes sociales pendientes de configurar" [ref=f1e335]:
+        - button "Instagram, enlace pendiente" [disabled] [ref=f1e336]
+        - button "Facebook, enlace pendiente" [disabled] [ref=f1e341]
+      - link "Volver arriba ↑" [ref=f1e344] [cursor=pointer]:
+        - /url: "#contenido"
+    - generic [ref=f1e345]:
+      - generic [ref=f1e346]: Santa Fe, Argentina · datos de contacto pendientes de confirmación
+      - generic [ref=f1e347]: La Oficina Amoblamientos
+  - complementary "Consulta por WhatsApp" [ref=f1e348]:
+    - button "Abrir vista previa de WhatsApp" [ref=f1e349] [cursor=pointer]
+  - button "Open Next.js Dev Tools" [ref=f1e359] [cursor=pointer]

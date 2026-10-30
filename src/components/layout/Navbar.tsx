@@ -1,34 +1,13 @@
-"use client";
-
-import { Brand } from "@/components/ui/Brand";
-import { navigation, site } from "@/config/site";
+import Image from "next/image";
+import Link from "next/link";
+import { site, navigation } from "@/config/site";
+import { SocialButtons } from "@/components/ui/SocialButtons";
 
 export function Navbar() {
-  return (
-    <header className="site-header">
-      <div className="container header-inner">
-        <a className="brand-link" href="#inicio" aria-label={`${site.name}, ir al inicio`}><Brand /></a>
-        <nav aria-label="Navegación principal" className="desktop-nav">
-          {navigation.map((item) => <a key={item.href} href={item.href}>{item.label}</a>)}
-        </nav>
-        <details className="mobile-menu" onKeyDown={(event) => {
-          if (event.key === "Escape") {
-            event.currentTarget.removeAttribute("open");
-            event.currentTarget.querySelector("summary")?.focus();
-          }
-        }}>
-          <summary>Menú <span aria-hidden="true">＋</span></summary>
-          <nav aria-label="Navegación móvil" onClick={(event) => {
-            if ((event.target as HTMLElement).closest("a")) {
-              const menu = event.currentTarget.closest("details");
-              menu?.removeAttribute("open");
-              menu?.querySelector("summary")?.focus();
-            }
-          }}>
-            {navigation.map((item) => <a key={item.href} href={item.href}>{item.label}</a>)}
-          </nav>
-        </details>
-      </div>
-    </header>
-  );
+  return <header className="site-header"><div className="container header-inner">
+    <Link className="brand-link" href="/#inicio" aria-label={`${site.name}, ir al inicio`}><Image src="/images/la-oficina-demo/logo-la-oficina.png" alt="" width={1190} height={997} priority /></Link>
+    <nav aria-label="Navegación principal" className="desktop-nav">{navigation.map((item) => <Link href={item.href} key={item.href}>{item.label}</Link>)}</nav>
+    <SocialButtons className="header-social" />
+    <Link className="header-cta" href="/#contacto">Hacer una consulta</Link>
+  </div></header>;
 }

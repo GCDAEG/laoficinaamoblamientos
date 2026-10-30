@@ -1,0 +1,147 @@
+- generic [ref=f3e1]:
+  - link "Ir al contenido" [ref=f3e2] [cursor=pointer]:
+    - /url: "#contenido"
+  - banner [ref=f3e3]:
+    - generic [ref=f3e4]:
+      - link "La Oficina Amoblamientos, ir al inicio" [ref=f3e5] [cursor=pointer]:
+        - /url: "#inicio"
+        - generic [ref=f3e6]:
+          - text: LA OFICINA
+          - generic [ref=f3e7]: AMOBLAMIENTOS
+      - link "Hacer una consulta" [ref=f3e8] [cursor=pointer]:
+        - /url: "#contacto"
+  - main [ref=f3e9]:
+    - region [ref=f3e10]:
+      - generic [ref=f3e11]:
+        - img "Ambiente de oficina con mesa de reunión y sillas ergonómicas; imagen generada e ilustrativa" [ref=f3e12]
+        - generic [ref=f3e13]: Imagen ilustrativa
+      - generic [ref=f3e14]:
+        - heading "Muebles para vivir y trabajar." [level=1] [ref=f3e15]: Muebles paravivir y trabajar.
+        - link "Explorar colección" [ref=f3e16] [cursor=pointer]:
+          - /url: "#productos"
+    - region [ref=f3e19]:
+      - generic [ref=f3e20]:
+        - paragraph [ref=f3e21]: Colecciones
+        - heading "Por dónde empezar" [level=2] [ref=f3e22]
+      - navigation "Explorar por categoría" [ref=f3e23]:
+        - link "Sillas ergonómicas Consultar" [ref=f3e24] [cursor=pointer]:
+          - /url: "#contacto"
+          - text: Sillas ergonómicas
+          - generic [ref=f3e25]: Consultar
+        - link "Decoración Consultar" [ref=f3e26] [cursor=pointer]:
+          - /url: "#contacto"
+          - text: Decoración
+          - generic [ref=f3e27]: Consultar
+        - link "Comedor Ver selección" [ref=f3e28] [cursor=pointer]:
+          - /url: "#coleccion-comedor"
+          - text: Comedor
+          - generic [ref=f3e29]: Ver selección
+        - link "Sofás Ver selección" [ref=f3e30] [cursor=pointer]:
+          - /url: "#coleccion-sofas"
+          - text: Sofás
+          - generic [ref=f3e31]: Ver selección
+        - link "Amoblamientos Consultar" [ref=f3e32] [cursor=pointer]:
+          - /url: "#contacto"
+          - text: Amoblamientos
+          - generic [ref=f3e33]: Consultar
+      - paragraph [ref=f3e34]: Las categorías sin piezas confirmadas abren una consulta general.
+    - region [ref=f3e35]:
+      - generic [ref=f3e36]:
+        - generic [ref=f3e37]:
+          - paragraph [ref=f3e38]: Selección ilustrativa
+          - heading "Ambientes y piezas" [level=2] [ref=f3e39]
+        - paragraph [ref=f3e40]: Referencias visuales para conversar sobre lo que estás buscando.
+      - paragraph [ref=f3e41]: Las fotografías y denominaciones son ilustrativas; no representan productos confirmados ni disponibilidad.
+      - generic [ref=f3e42]:
+        - article [ref=f3e43]:
+          - generic [ref=f3e44]:
+            - img "Mesa de comedor y sillas en un ambiente luminoso; imagen ilustrativa" [ref=f3e45]
+            - generic [ref=f3e46]: Imagen ilustrativa
+          - generic [ref=f3e47]:
+            - generic [ref=f3e48]:
+              - paragraph [ref=f3e49]: Comedor
+              - heading "Comedor contemporáneo" [level=3] [ref=f3e50]
+            - button "Consultar" [ref=f3e51] [cursor=pointer]
+        - article [ref=f3e52]:
+          - generic [ref=f3e53]:
+            - img "Taburete de madera sobre fondo celeste; imagen ilustrativa" [ref=f3e54]
+            - generic [ref=f3e55]: Imagen ilustrativa
+          - generic [ref=f3e56]:
+            - generic [ref=f3e57]:
+              - paragraph [ref=f3e58]: Mobiliario
+              - heading "Taburete de madera" [level=3] [ref=f3e59]
+            - button "Consultar" [ref=f3e60] [cursor=pointer]
+        - article [ref=f3e61]:
+          - generic [ref=f3e62]:
+            - img "Sofá en una sala de estar luminosa; imagen ilustrativa" [ref=f3e63]
+            - generic [ref=f3e64]: Imagen ilustrativa
+          - generic [ref=f3e65]:
+            - generic [ref=f3e66]:
+              - paragraph [ref=f3e67]: Sofás
+              - heading "Ambiente de estar" [level=3] [ref=f3e68]
+            - button "Consultar" [ref=f3e69] [cursor=pointer]
+        - article [ref=f3e70]:
+          - generic [ref=f3e71]:
+            - img "Mesa auxiliar junto a una cama; referencia ilustrativa; imagen ilustrativa" [ref=f3e72]
+            - generic [ref=f3e73]: Imagen ilustrativa
+          - generic [ref=f3e74]:
+            - generic [ref=f3e75]:
+              - paragraph [ref=f3e76]: Hogar
+              - heading "Rincón de descanso" [level=3] [ref=f3e77]
+            - button "Consultar" [ref=f3e78] [cursor=pointer]
+        - complementary [ref=f3e79]:
+          - paragraph [ref=f3e80]: La Oficina Amoblamientos
+          - heading "50 años de trayectoria." [level=2] [ref=f3e81]
+          - paragraph [ref=f3e82]: Una mirada sobre el mobiliario para oficinas, hogares y proyectos.
+          - generic [ref=f3e83]: Dato comunicado, pendiente de verificación pública.
+          - link "Consultar por un proyecto" [ref=f3e84] [cursor=pointer]:
+            - /url: "#contacto"
+            - text: Consultar por un proyecto
+            - generic [aria-hidden] [ref=f3e85]: ↗
+    - region [ref=f3e86]:
+      - generic [ref=f3e87]:
+        - generic [ref=f3e88]:
+          - paragraph [ref=f3e89]: Contacto
+          - heading "¿Lo pensamos juntos?" [level=2] [ref=f3e90]
+          - paragraph [ref=f3e91]: Contanos qué espacio querés equipar. La consulta se prepara para que puedas revisarla antes de enviarla.
+          - generic [ref=f3e92]: La consulta no se guarda en este sitio.
+        - generic [ref=f3e95]:
+          - generic [ref=f3e96]: Consulta abierta o por proyecto
+          - generic [ref=f3e99]:
+            - generic [ref=f3e100]:
+              - text: Nombre
+              - textbox "Nombre" [ref=f3e101]:
+                - /placeholder: Tu nombre
+            - generic [ref=f3e102]:
+              - text: Localidad
+              - textbox "Localidad" [ref=f3e103]:
+                - /placeholder: Tu localidad
+          - generic [ref=f3e104]:
+            - text: Producto o tipo de proyecto
+            - combobox "Producto o tipo de proyecto" [ref=f3e105]:
+              - option "Consulta general / proyecto" [selected]
+              - option "Comedor contemporáneo · ilustrativo"
+              - option "Taburete de madera · ilustrativo"
+              - option "Ambiente de estar · ilustrativo"
+              - option "Rincón de descanso · ilustrativo"
+          - generic [ref=f3e106]:
+            - text: Mensaje adicional
+            - generic [ref=f3e107]: Opcional
+            - textbox "Mensaje adicional Opcional" [ref=f3e108]:
+              - /placeholder: ¿Qué te gustaría contarnos?
+          - button "Continuar por WhatsApp" [disabled] [ref=f3e109]:
+            - text: Continuar por WhatsApp
+            - generic [aria-hidden] [ref=f3e110]: ↗
+          - paragraph [ref=f3e111]: El mensaje se abrirá en WhatsApp para que puedas revisarlo y enviarlo.
+          - paragraph [ref=f3e112]: WhatsApp oficial pendiente de confirmación. Esta acción se habilitará al verificar el número de contacto.
+  - contentinfo [ref=f3e113]:
+    - generic [ref=f3e114]:
+      - link "LA OFICINA AMOBLAMIENTOS" [ref=f3e115] [cursor=pointer]:
+        - /url: "#inicio"
+      - paragraph [ref=f3e116]: Demo conceptual no oficial desarrollada por TUWEBHOY.
+      - link "Volver arriba ↑" [ref=f3e117] [cursor=pointer]:
+        - /url: "#inicio"
+    - generic [ref=f3e118]:
+      - generic [ref=f3e119]: Santa Fe, Argentina · datos de contacto pendientes de confirmación
+      - generic [ref=f3e120]: La Oficina Amoblamientos
+  - button "Open Next.js Dev Tools" [ref=f3e126] [cursor=pointer]

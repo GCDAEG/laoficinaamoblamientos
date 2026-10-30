@@ -1,0 +1,330 @@
+[
+  {
+    "id": "catalogo-002",
+    "sourceIndex": 2,
+    "name": "Armario Bajo Abierto de 0,74",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/002.jpg",
+    "alt": "Imagen de catálogo: Armario Bajo Abierto de 0,74"
+  },
+  {
+    "id": "catalogo-003",
+    "sourceIndex": 3,
+    "name": "Armario Bajo de 0,74",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/003.jpg",
+    "alt": "Imagen de catálogo: Armario Bajo de 0,74"
+  },
+  {
+    "id": "catalogo-004",
+    "sourceIndex": 4,
+    "name": "Armario Abierto de 1,35",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/004.jpg",
+    "alt": "Imagen de catálogo: Armario Abierto de 1,35"
+  },
+  {
+    "id": "catalogo-005",
+    "sourceIndex": 5,
+    "name": "Escritorio Simple Caño Cerrado",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/005.jpg",
+    "alt": "Imagen de catálogo: Escritorio Simple Caño Cerrado"
+  },
+  {
+    "id": "catalogo-006",
+    "sourceIndex": 6,
+    "name": "Puesto de trabajo en forma de \"L\" simple",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/006.jpg",
+    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\" simple"
+  },
+  {
+    "id": "catalogo-007",
+    "sourceIndex": 7,
+    "name": "Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/007.jpg",
+    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\" con cajonera pedestal de 1 cajón"
+  },
+  {
+    "id": "catalogo-008",
+    "sourceIndex": 8,
+    "name": "Puesto de trabajo con extensión y cajonera de un cajón",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/008.jpg",
+    "alt": "Imagen de catálogo: Puesto de trabajo con extensión y cajonera de un cajón"
+  },
+  {
+    "id": "catalogo-009",
+    "sourceIndex": 9,
+    "name": "Mesa Redonda",
+    "category": "Mesas",
+    "image": "/images/la-oficina-catalogue/009.jpg",
+    "alt": "Imagen de catálogo: Mesa Redonda"
+  },
+  {
+    "id": "catalogo-010",
+    "sourceIndex": 10,
+    "name": "Mesa Oval",
+    "category": "Mesas",
+    "image": "/images/la-oficina-catalogue/010.jpg",
+    "alt": "Imagen de catálogo: Mesa Oval"
+  },
+  {
+    "id": "catalogo-027",
+    "sourceIndex": 27,
+    "name": "Escritorio Simple",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/027.jpg",
+    "alt": "Imagen de catálogo: Escritorio Simple"
+  },
+  {
+    "id": "catalogo-028",
+    "sourceIndex": 28,
+    "name": "Sillas Ergonómicas",
+    "category": "Sillas",
+    "image": "/images/la-oficina-catalogue/028.jpg",
+    "alt": "Imagen de catálogo: Sillas Ergonómicas"
+  },
+  {
+    "id": "catalogo-029",
+    "sourceIndex": 29,
+    "name": "Sillas Administrativas",
+    "category": "Sillas",
+    "image": "/images/la-oficina-catalogue/029.jpg",
+    "alt": "Imagen de catálogo: Sillas Administrativas"
+  },
+  {
+    "id": "catalogo-030",
+    "sourceIndex": 30,
+    "name": "GUD",
+    "category": "Sillas",
+    "image": "/images/la-oficina-catalogue/030.jpg",
+    "alt": "Imagen de catálogo: GUD"
+  },
+  {
+    "id": "catalogo-031",
+    "sourceIndex": 31,
+    "name": "Escritorio con cajonera colgante de 2 cajones",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/031.jpg",
+    "alt": "Imagen de catálogo: Escritorio con cajonera colgante de 2 cajones"
+  },
+  {
+    "id": "catalogo-032",
+    "sourceIndex": 32,
+    "name": "Mesa de Reunión",
+    "category": "Mesas",
+    "image": "/images/la-oficina-catalogue/032.jpg",
+    "alt": "Imagen de catálogo: Mesa de Reunión"
+  },
+  {
+    "id": "catalogo-033",
+    "sourceIndex": 33,
+    "name": "Puesto de Trabajo Desnivel",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/033.jpg",
+    "alt": "Imagen de catálogo: Puesto de Trabajo Desnivel"
+  },
+  {
+    "id": "catalogo-034",
+    "sourceIndex": 34,
+    "name": "Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/034.jpg",
+    "alt": "Imagen de catálogo: Puesto de Trabajo en forma de \"L\" con cajonera de 4 cajones"
+  },
+  {
+    "id": "catalogo-039",
+    "sourceIndex": 39,
+    "name": "Mesa de Reunión- Dos Tapas",
+    "category": "Mesas",
+    "image": "/images/la-oficina-catalogue/039.jpg",
+    "alt": "Imagen de catálogo: Mesa de Reunión- Dos Tapas"
+  },
+  {
+    "id": "catalogo-040",
+    "sourceIndex": 40,
+    "name": "Mesa de Reunión- Una Tapa",
+    "category": "Mesas",
+    "image": "/images/la-oficina-catalogue/040.jpg",
+    "alt": "Imagen de catálogo: Mesa de Reunión- Una Tapa"
+  },
+  {
+    "id": "catalogo-046",
+    "sourceIndex": 46,
+    "name": "Mesa de Reunión- Tres Tapas",
+    "category": "Mesas",
+    "image": "/images/la-oficina-catalogue/046.jpg",
+    "alt": "Imagen de catálogo: Mesa de Reunión- Tres Tapas"
+  },
+  {
+    "id": "catalogo-047",
+    "sourceIndex": 47,
+    "name": "Mesa de Reunión - Dos Tapas",
+    "category": "Mesas",
+    "image": "/images/la-oficina-catalogue/047.jpg",
+    "alt": "Imagen de catálogo: Mesa de Reunión - Dos Tapas"
+  },
+  {
+    "id": "catalogo-048",
+    "sourceIndex": 48,
+    "name": "Mesa de Reunión - Una Tapa",
+    "category": "Mesas",
+    "image": "/images/la-oficina-catalogue/048.jpg",
+    "alt": "Imagen de catálogo: Mesa de Reunión - Una Tapa"
+  },
+  {
+    "id": "catalogo-049",
+    "sourceIndex": 49,
+    "name": "Puesto de trabajo en forma de \"L\"",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/049.jpg",
+    "alt": "Imagen de catálogo: Puesto de trabajo en forma de \"L\""
+  },
+  {
+    "id": "catalogo-050",
+    "sourceIndex": 50,
+    "name": "Puesto de trabajo Desnivel Caño Cerrado",
+    "category": "Escritorios",
+    "image": "/images/la-oficina-catalogue/050.jpg",
+    "alt": "Imagen de catálogo: Puesto de trabajo Desnivel Caño Cerrado"
+  },
+  {
+    "id": "catalogo-051",
+    "sourceIndex": 51,
+    "name": "Linea Mica",
+    "category": "Líneas",
+    "image": "/images/la-oficina-catalogue/051.jpg",
+    "alt": "Imagen de catálogo: Linea Mica"
+  },
+  {
+    "id": "catalogo-052",
+    "sourceIndex": 52,
+    "name": "Linea Duna",
+    "category": "Líneas",
+    "image": "/images/la-oficina-catalogue/052.jpg",
+    "alt": "Imagen de catálogo: Linea Duna"
+  },
+  {
+    "id": "catalogo-053",
+    "sourceIndex": 53,
+    "name": "Cajonera rodante de tres cajones",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/053.jpg",
+    "alt": "Imagen de catálogo: Cajonera rodante de tres cajones"
+  },
+  {
+    "id": "catalogo-057",
+    "sourceIndex": 57,
+    "name": "Linea Vetta",
+    "category": "Líneas",
+    "image": "/images/la-oficina-catalogue/057.jpg",
+    "alt": "Imagen de catálogo: Linea Vetta"
+  },
+  {
+    "id": "catalogo-058",
+    "sourceIndex": 58,
+    "name": "Biblioteca con puertas corredizas baja",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/058.jpg",
+    "alt": "Imagen de catálogo: Biblioteca con puertas corredizas baja"
+  },
+  {
+    "id": "catalogo-065",
+    "sourceIndex": 65,
+    "name": "Armario Bajo Abierto de 0,45",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/065.jpg",
+    "alt": "Imagen de catálogo: Armario Bajo Abierto de 0,45"
+  },
+  {
+    "id": "catalogo-066",
+    "sourceIndex": 66,
+    "name": "Archivo de 0,90",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/066.jpg",
+    "alt": "Imagen de catálogo: Archivo de 0,90"
+  },
+  {
+    "id": "catalogo-067",
+    "sourceIndex": 67,
+    "name": "Armario Cerrado de 0,45",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/067.jpg",
+    "alt": "Imagen de catálogo: Armario Cerrado de 0,45"
+  },
+  {
+    "id": "catalogo-068",
+    "sourceIndex": 68,
+    "name": "Cajonera pedestal de 1 cajón",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/068.jpg",
+    "alt": "Imagen de catálogo: Cajonera pedestal de 1 cajón"
+  },
+  {
+    "id": "catalogo-069",
+    "sourceIndex": 69,
+    "name": "Cajonera pedestal de 4 cajones",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/069.jpg",
+    "alt": "Imagen de catálogo: Cajonera pedestal de 4 cajones"
+  },
+  {
+    "id": "catalogo-070",
+    "sourceIndex": 70,
+    "name": "Biblioteca Media Puerta",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/070.jpg",
+    "alt": "Imagen de catálogo: Biblioteca Media Puerta"
+  },
+  {
+    "id": "catalogo-077",
+    "sourceIndex": 77,
+    "name": "Armario Alto Abierto de 1,80",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/077.jpg",
+    "alt": "Imagen de catálogo: Armario Alto Abierto de 1,80"
+  },
+  {
+    "id": "catalogo-078",
+    "sourceIndex": 78,
+    "name": "Armario Alto Cerrado de 1,80",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/078.jpg",
+    "alt": "Imagen de catálogo: Armario Alto Cerrado de 1,80"
+  },
+  {
+    "id": "catalogo-079",
+    "sourceIndex": 79,
+    "name": "Armario Cerrado de 1,35",
+    "category": "Guardado",
+    "image": "/images/la-oficina-catalogue/079.jpg",
+    "alt": "Imagen de catálogo: Armario Cerrado de 1,35"
+  },
+  {
+    "id": "catalogo-080",
+    "sourceIndex": 80,
+    "name": "Sillones Ejecutivos",
+    "category": "Sillas",
+    "image": "/images/la-oficina-catalogue/080.jpg",
+    "alt": "Imagen de catálogo: Sillones Ejecutivos"
+  },
+  {
+    "id": "catalogo-086",
+    "sourceIndex": 86,
+    "name": "Taburetes",
+    "category": "Sillas",
+    "image": "/images/la-oficina-catalogue/086.jpg",
+    "alt": "Imagen de catálogo: Taburetes"
+  },
+  {
+    "id": "catalogo-087",
+    "sourceIndex": 87,
+    "name": "Sillas Residenciales",
+    "category": "Sillas",
+    "image": "/images/la-oficina-catalogue/087.jpg",
+    "alt": "Imagen de catálogo: Sillas Residenciales"
+  }
+]
